@@ -3,7 +3,7 @@
 - llms
 - generative ai
 - foundation models
-  - history ![image](https://github.com/vanchanr/ai/assets/43525805/33736c29-9d62-4338-9d56-033e9aeb6646)
+  - history ![image](https://github.com/vanchanr/knowledge-sharing/assets/43525805/dfa5d173-020b-4f32-9b63-b17141504c5b)
   - diff types of FMs
   - model training process
 - transformers
