@@ -1,0 +1,13 @@
+- chatGPT
+- midjourney
+- llms
+- generative ai
+- foundation models
+  - history ![image](https://github.com/vanchanr/ai/assets/43525805/33736c29-9d62-4338-9d56-033e9aeb6646)
+  - diff types of FMs
+  - model training process
+- transformers
+- diffusion models
+- autoGPT
+- bard
+- langchain
