@@ -1,0 +1,3 @@
+- Object storage
+- File storage
+- Block storage
