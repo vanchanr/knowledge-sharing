@@ -1,0 +1,7 @@
+- Relational
+- NoSQL
+  - Key Value
+  - Document
+  - Wide Column
+  - Graph
+  - Timeseries
