@@ -12,3 +12,11 @@ select user_id, concat(upper(substr(name, 1, 1)), lower(substr(name, 2))) as nam
 from Users
 order by user_id;
 ```
+- col `like` pattern
+- % represents zero, one, or multiple characters
+- _ represents one, single character
+```
+select *
+from Patients
+where conditions like '% DIAB1%' or conditions like 'DIAB1%';
+```
