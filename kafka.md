@@ -22,4 +22,19 @@
 -  rather than focusing on storing massive amounts of data in warehouses or lakes, today’s data move is about application building and realtime analytics.
 -  Audi, for instance, has leveraged the ability to connect, process, and analyze IoT car data and interpret it in order to provide a better allaround customer experience with services like satellite navigation, predictive maintenance, and in-car entertainment.
 
+---
+- **Consumer Groups**
+  - A partition can be processed by atmost 1 consumer node, while a single consumer within a cosumer group can process multiple partions of a topic
+  - this is to maintain ordering within events of a single partition \
+![image](https://github.com/vanchanr/knowledge-sharing/assets/43525805/143092ab-46a1-4306-9827-c6f386e2d20f)
+
+- **Kafka APIs**
+  - _Producer API_: allows apps to send streams of data to topics in a Kafka cluster
+  - _Consumer API_: allows apps to read streams of data from topics in a Kafka cluster
+  - _Streams API_: allows transforming streams of data from input topics to output topics
+  - _Connect API_: allows implementing connectors that continually pull from some source system or application into Kafka or push from Kafka to some sink system or application
+  - _Admin API_: allows managing and inspecting topics, brokers, and other Kafka objects \
+![image](https://github.com/vanchanr/knowledge-sharing/assets/43525805/955f21f7-a6b8-481a-ad97-3b8ece570380)
+
+ 
 
