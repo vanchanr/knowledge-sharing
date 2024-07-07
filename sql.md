@@ -20,4 +20,17 @@ select *
 from Patients
 where conditions like '% DIAB1%' or conditions like 'DIAB1%';
 ```
-- self join
+- [find employees with top k salaries in each department](https://leetcode.com/problems/department-top-three-salaries)
+```
+select Department.name as Department, e1.name as Employee, e1.salary as Salary
+from Employee e1
+join Department
+on e1.departmentId = Department.id
+where (
+    select count(distinct(e2.salary))
+    from Employee e2
+    where e2.departmentId = e1.departmentId and e2.salary > e1.salary
+) <= 2;
+```
+
+- other topics: self join
