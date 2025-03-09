@@ -11,3 +11,10 @@
 - autoGPT
 - bard
 - langchain
+
+- https://python.langchain.com/docs/tutorials/
+- https://docs.cloud.llamaindex.ai/llamaparse/getting_started/python
+- https://huggingface.co/learn/cookbook/en/rag_with_unstructured_data
+- https://www.llama.com/docs/how-to-guides/prompting/
+- https://github.com/meta-llama/llama-cookbook/blob/main/getting-started/Prompt_Engineering_with_Llama.ipynb
+- https://promptperfect.jina.ai/
