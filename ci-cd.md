@@ -1,0 +1,21 @@
+- on every change by each developer, build + test + deploy
+- CI
+  - developers frequently merge their code changes to a shared repository
+  - catch bugs early
+  - application is ready for deployment
+  - build + unit tests + integration tests
+- CD
+  - continuous delivery: prepare image and keep ready. but deployed manually
+  - continuous deployment: deployment is also done automatically
+  - review + staging + production
+
+---
+ 
+  - plan: jira, confluence (functional requirements, non functional requirements, api spec etc --> freeze requirements)
+  - code: github
+  - build: github actions
+  - test: junit
+  - release: docker image (ECR)
+  - deploy: argocd
+  - operate: K8s (EKS)
+  - monitor: datadog, splunk, niffler
