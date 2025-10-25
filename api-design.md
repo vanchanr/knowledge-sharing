@@ -1,6 +1,49 @@
 - Basics
-    - 
+    - APIs provide a way in which software applications communicate with each other by hiding the complexity of each other
+    - They define the methods and data formats an application should use in order to perform tasks, like sending, retrieving, or modifying data
+    - They allow applications to exchange data and functionality with ease, thus enabling integration and convergence of technological services
+    - DNS
+    - TCP/IP
+    - HTTP:
+        - HTTP versions: HTTP/1.0, HTTP/2, HTTP/3
+            - Selecting an appropriate HTTP version is crucial for API efficiency and performance
+        - HTTP Methods: GET, POST, PUT, DELETE, and PATCH
+            - Each of these methods signifies a different type of request, allowing for various interactions with your API endpoints
+        - HTTP Status Codes: provide important information about the result of a request made to a server
+            - 2xx, 4xx, 5xx
+        - HTTP Headers: They can define parameters such as content type, authentication, response status, cookies, and more
+        - HTTP Caching: When an API receives the same request multiple times, instead of processing each request separately, it can use a previously stored response, thereby improving performance and efficiency
+            - The cache is governed by headers on the HTTP requests and responses
+        - Cookies: cookies are small bits of data stored on a user's browser that enables stateful HTTP sessions
+            - cookies are especially useful when authentication is required. Cookies can store session tokens, thereby allowing users to stay logged in across multiple sessions or different web pages
+        - CORS: It is a mechanism that uses HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin.
+            - By default, web browsers prohibit web pages from making requests to a different domain than the one the web page came from. CORS is the guideline that lets you configure a set of rules on the server to define which types of cross-domain requests are allowed, providing much-needed flexibility without compromising security
+    - Request and Response formats: query/path parameters, body
 
+- API styles
+    - RESTful APIs
+    - gRPC APIs
+    - graphql APIs
+
+- REST APIs
+    - REST principles
+    - pagination
+    - rate limiting
+    - idempotency
+    - versioning
+    - error handling
+
+- API authentication and authorization
+    - Authentication:
+        - Basic Auth
+        - JWT
+        - OAuth 2.0
+        - Token based Auth
+        - Session based Auth
+    - Authorization:
+        - RBAC
+        - ABAC
+        - ReBAC
 
 - API integration patterns
     - 
