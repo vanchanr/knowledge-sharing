@@ -1,0 +1,8 @@
+- OSI model
+- TCP/IP Model
+- HTTP, HTTPS
+    - HTTPS = HTTP + SSL/TLS
+- proxies: a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource
+- firewalls: a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies
+    - Firewalls usually sit between a trusted network and an untrusted network; oftentimes the untrusted network is the Internet
+    - For example, office networks often use a firewall to protect their network from online threats

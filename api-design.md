@@ -46,7 +46,10 @@
         - ReBAC
 
 - API integration patterns
-    - 
+    - Messaging queues: Message queuing makes it possible for applications to communicate asynchronously, by sending messages to each other via a queue
+        -  A message queue provides temporary storage between the sender and the receiver so that the sender can keep operating without interruption when the destination program is busy or not connected
+        - Asynchronous messaging for batching jobs and decoupling applications
+        - https://aws.amazon.com/message-queue/
 
 - API testing
     - unit tests: testing the individual components or functions of an API independently to ensure that each part is working correctly

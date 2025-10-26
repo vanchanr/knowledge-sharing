@@ -1,3 +1,12 @@
+- IaC
+- cloud providers
+- serverless concpets
+- linux
+- service mesh
+- ci/cd
+- containers
+- cloud design patterns
+
 - how to setup?
     - forward proxy
     - reverse proxy
