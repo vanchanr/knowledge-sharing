@@ -1,1 +1,55 @@
+- Basics
+    - Terminology:
+        - Beans: Java objects managed by Spring
+        - Inversion of Control (IoC): Spring managing bean lifecycles and dependencies
+        - Dependency Injection (DI): Spring providing bean dependencies
+        - Spring container (ApplicationContext): creates and manages these beans
+        - Aspect-Oriented Programming (AOP): handling cross-cutting concerns
+        - Spring offers an event model (using ApplicationEvent and listeners): for decoupled communication
+        - Spring offers abstractions for Data Access and Transactions
+        - Spring offers utilities for Task execution and Scheduling
+    - Spring Boot Starters
+    - Autoconfiguration
+    - Actuators 
+    - Embedded Server
 
+- Spring MVC: a web application framework that is part of the Spring Framework. It is designed to make it easy to build web applications using the Model-View-Controller (MVC) design pattern
+    - Model: represents the data and the business logic of the application
+    - View: responsible for generating the HTML that is sent to the client's web browser
+    - Controller: acts as an intermediary between the Model and the View, handling incoming HTTP requests and generating the appropriate response
+    - Servlet
+    - JSP
+
+- Spring Data: a collection of projects for data access in Spring-based applications
+    - provides a common interface for working with various types of data stores, including relational databases, NoSQL data stores, and cloud-based data services
+    - The goal of Spring Data is to simplify data access in Spring applications by providing a consistent, high-level repository programming model across different data stores and data access technologies
+    - This can help developers write less boilerplate code and focus on business logic, while still being able to take advantage of the full power of the underlying data store
+    - https://spring.io/projects/spring-data
+    - Spring Data JDBC
+    - Spring Data JPA
+    - Spring Data Redis
+    - Hibernate: ORM framework
+    - Transactions: represents a unit of work. In such case, if one step fails, the whole transaction fails (which is termed as atomicity)
+        - A transaction can be described by ACID properties (Atomicity, Consistency, Isolation and Durability)
+
+- Spring Cloud: collection of libraries and tools for building cloud-native applications using the Spring Framework
+    - provides a set of abstractions and implementations for common patterns and best practices used in cloud-based applications, such as service discovery, configuration management, and circuit breaker patterns, among others
+    - https://spring.io/projects/spring-cloud
+    - Spring Cloud OpenFeign: creating declarative REST clients
+        - allows developers to easily make HTTP requests to other microservices or remote services, without having to manually write the low-level code to handle the requests and responses
+    - Spring Cloud Eureka: library for service discovery in a microservices-based architecture. Service discovery is a technique that allows services to find and communicate with each other, without having to hardcode their addresses
+    - https://spring.io/microservices
+
+- Spring Security
+    - Authentication
+    - Authorization
+    - OAuth2
+    - JWT Authentication
+
+- Testing
+    - Spring provides a set of testing utilities that make it easy to test the various components of a Spring application, including controllers, services, repositories, and other components
+    - It has a rich set of testing annotations, utility classes and other features to aid in unit testing, integration testing and more.
+    - @DataJpaTest
+    - MockMvc
+    - @SpringBootTest
+    - @MockBean
