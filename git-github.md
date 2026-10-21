@@ -23,6 +23,9 @@
 >> git merge upstream/branch_name
 
 >> git cherry-pick <commitid>
+
+>> git update-index --skip-worktree .gitignore
+>> git update-index --no-skip-worktree .gitignore
 ```
 
 - Release tags: named reference to a specific commit in the project's history
