@@ -74,6 +74,9 @@ class DiagramBuilder:
             # Subtitle lines
             curr_y = start_y + line_height
             for s_line in sub_lines:
+                if not s_line or not s_line.strip():
+                    curr_y += line_height // 2
+                    continue
                 is_bullet = s_line.strip().startswith("•") or s_line.strip().startswith("-")
                 s_align = "left" if is_bullet else "center"
                 s_x = x + 24 if is_bullet else x + 8
@@ -136,8 +139,8 @@ class DiagramBuilder:
         self.elements.append(line)
         return line["id"]
 
-    def add_arrow(self, x1, y1, x2, y2, label=None, stroke="#495057", stroke_width=2, stroke_style="solid", end_arrow="arrow", label_offset_y=-20, label_bg="#ffffff", font_size=12):
-        """Draws an arrow with optional label centered above it, with optional opaque mask."""
+    def add_arrow(self, x1, y1, x2, y2, label=None, stroke="#495057", stroke_width=2, stroke_style="solid", end_arrow="arrow", label_offset_y=-18, label_bg=None, font_size=12):
+        """Draws an arrow with optional label centered above it without destructive background masks."""
         dx = x2 - x1
         dy = y2 - y1
         a = self._base_element("arrow", x1, y1, abs(dx), abs(dy), stroke=stroke, stroke_width=stroke_width, stroke_style=stroke_style, roughness=0, roundness=None)
