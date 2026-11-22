@@ -1,6 +1,9 @@
 # Computer Networks — From Basics to Expert
 
 ## Network Models: OSI vs TCP/IP
+
+![OSI 7-Layer vs TCP/IP 4-Layer Model](assets/diagrams/networks-osi-tcpip-model.png)
+
 - **OSI 7-Layer Model**:
   1. **Physical (Layer 1)**: Transmission of raw bits over physical mediums (cables, fiber, radio frequencies).
   2. **Data Link (Layer 2)**: Node-to-node framing, MAC addressing, error detection (Ethernet, Wi-Fi, ARP).
@@ -16,6 +19,9 @@
   - **Application Layer**: OSI Layers 5, 6 & 7 (HTTP, DNS, SSH, TLS).
 
 ## Transport Layer: TCP vs UDP
+
+![TCP 3-Way Handshake & 4-Way Teardown](assets/diagrams/networks-tcp-handshake-teardown.png)
+
 - **TCP (Transmission Control Protocol)**:
   - **Connection-oriented, reliable, byte-stream protocol**.
   - **Three-Way Handshake**:
