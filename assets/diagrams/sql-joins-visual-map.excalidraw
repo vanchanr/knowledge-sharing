@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "0a49ce24",
+      "id": "0a473a37",
       "type": "rectangle",
       "x": 40,
       "y": 25,
@@ -23,17 +23,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "5efbc638",
+      "id": "984e3816",
       "type": "text",
       "x": 50,
       "y": 35,
@@ -52,12 +52,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "SQL Joins & Set Operations Visual Map",
@@ -66,7 +66,7 @@
       "textAlign": "center"
     },
     {
-      "id": "d6d5984a",
+      "id": "19332e1e",
       "type": "text",
       "x": 50,
       "y": 63,
@@ -85,12 +85,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Visual Guide to Relational Joins, Cartesian Products, and Recursive Hierarchies",
@@ -99,7 +99,7 @@
       "textAlign": "center"
     },
     {
-      "id": "440ba2c6",
+      "id": "099b64ee",
       "type": "rectangle",
       "x": 40,
       "y": 110,
@@ -118,21 +118,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "5ebf9bae",
+      "id": "3fe7b9d4",
       "type": "rectangle",
       "x": 52,
       "y": 120,
-      "width": 336,
+      "width": 140,
       "height": 28,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -147,21 +147,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "6265abbf",
+      "id": "e9d0a8f0",
       "type": "text",
       "x": 60,
       "y": 124,
-      "width": 320,
+      "width": 124,
       "height": 20,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -176,12 +176,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "INNER JOIN",
@@ -190,7 +190,7 @@
       "textAlign": "center"
     },
     {
-      "id": "d70d9a12",
+      "id": "4bb7751e",
       "type": "rectangle",
       "x": 65,
       "y": 155,
@@ -209,17 +209,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "2f0c7f4f",
+      "id": "a4748c45",
       "type": "text",
       "x": 73,
       "y": 177,
@@ -238,12 +238,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Table A\n(Orders)",
@@ -252,7 +252,7 @@
       "textAlign": "center"
     },
     {
-      "id": "8f88870b",
+      "id": "7c8c681a",
       "type": "rectangle",
       "x": 165,
       "y": 155,
@@ -271,17 +271,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "fd9e677c",
+      "id": "efcfd4f2",
       "type": "text",
       "x": 173,
       "y": 177,
@@ -300,12 +300,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "A \u2229 B\n(Matched)",
@@ -314,7 +314,7 @@
       "textAlign": "center"
     },
     {
-      "id": "f49b4ad5",
+      "id": "1cef8fe8",
       "type": "rectangle",
       "x": 280,
       "y": 155,
@@ -333,17 +333,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "e0f049ea",
+      "id": "f19c35bb",
       "type": "text",
       "x": 288,
       "y": 177,
@@ -362,12 +362,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Table B\n(Users)",
@@ -376,7 +376,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7eec1502",
+      "id": "b86b95a3",
       "type": "rectangle",
       "x": 60,
       "y": 230,
@@ -395,17 +395,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "09e8f34b",
+      "id": "3ef14586",
       "type": "text",
       "x": 68,
       "y": 249,
@@ -424,12 +424,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955300,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955300,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Only matching rows in both tables",
@@ -438,7 +438,7 @@
       "textAlign": "center"
     },
     {
-      "id": "43ea10db",
+      "id": "633613bc",
       "type": "text",
       "x": 68,
       "y": 267,
@@ -457,12 +457,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "SELECT * FROM Orders O",
@@ -471,7 +471,7 @@
       "textAlign": "center"
     },
     {
-      "id": "4e099046",
+      "id": "e989177d",
       "type": "text",
       "x": 68,
       "y": 283,
@@ -490,12 +490,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "INNER JOIN Customers C",
@@ -504,7 +504,7 @@
       "textAlign": "center"
     },
     {
-      "id": "f270c730",
+      "id": "759afa0d",
       "type": "text",
       "x": 68,
       "y": 299,
@@ -523,12 +523,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "  ON O.cust_id = C.id;",
@@ -537,7 +537,7 @@
       "textAlign": "center"
     },
     {
-      "id": "e3eb1d26",
+      "id": "e65c566c",
       "type": "rectangle",
       "x": 430,
       "y": 110,
@@ -556,21 +556,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "6c8df3da",
+      "id": "5a1fd3eb",
       "type": "rectangle",
       "x": 442,
       "y": 120,
-      "width": 336,
+      "width": 165,
       "height": 28,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -585,21 +585,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "02e25378",
+      "id": "56fb6456",
       "type": "text",
       "x": 450,
       "y": 124,
-      "width": 320,
+      "width": 149,
       "height": 20,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -614,12 +614,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "LEFT OUTER JOIN",
@@ -628,7 +628,7 @@
       "textAlign": "center"
     },
     {
-      "id": "774c1dd2",
+      "id": "76926767",
       "type": "rectangle",
       "x": 455,
       "y": 155,
@@ -647,17 +647,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "78a77cfd",
+      "id": "9183fd5d",
       "type": "text",
       "x": 463,
       "y": 177,
@@ -676,12 +676,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "All of Table A\n(Preserved)",
@@ -690,7 +690,7 @@
       "textAlign": "center"
     },
     {
-      "id": "3a76fa34",
+      "id": "c55fa99a",
       "type": "rectangle",
       "x": 615,
       "y": 155,
@@ -709,17 +709,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "55cd0a2c",
+      "id": "efa4fa20",
       "type": "text",
       "x": 623,
       "y": 177,
@@ -738,12 +738,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Matched Table B\n(or NULL)",
@@ -752,7 +752,7 @@
       "textAlign": "center"
     },
     {
-      "id": "57f5a22e",
+      "id": "2207ffd3",
       "type": "rectangle",
       "x": 450,
       "y": 230,
@@ -771,17 +771,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "b4201cb3",
+      "id": "a743ccd5",
       "type": "text",
       "x": 458,
       "y": 249,
@@ -800,12 +800,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "All A rows + matching B (or NULL)",
@@ -814,7 +814,7 @@
       "textAlign": "center"
     },
     {
-      "id": "0ce28285",
+      "id": "02fd5bb7",
       "type": "text",
       "x": 458,
       "y": 267,
@@ -833,12 +833,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "SELECT * FROM Users U",
@@ -847,7 +847,7 @@
       "textAlign": "center"
     },
     {
-      "id": "cb637bbb",
+      "id": "5ce1176a",
       "type": "text",
       "x": 458,
       "y": 283,
@@ -866,12 +866,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "LEFT JOIN Orders O",
@@ -880,7 +880,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b755ec24",
+      "id": "eaf64540",
       "type": "text",
       "x": 458,
       "y": 299,
@@ -899,12 +899,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "  ON U.id = O.user_id;",
@@ -913,7 +913,7 @@
       "textAlign": "center"
     },
     {
-      "id": "71272597",
+      "id": "4366bd90",
       "type": "rectangle",
       "x": 820,
       "y": 110,
@@ -932,21 +932,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "3069e6a4",
+      "id": "3fb57816",
       "type": "rectangle",
       "x": 832,
       "y": 120,
-      "width": 336,
+      "width": 174,
       "height": 28,
       "angle": 0,
       "strokeColor": "#f59f00",
@@ -961,21 +961,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "c32b14fe",
+      "id": "87b5f2d2",
       "type": "text",
       "x": 840,
       "y": 124,
-      "width": 320,
+      "width": 158,
       "height": 20,
       "angle": 0,
       "strokeColor": "#d9480f",
@@ -990,12 +990,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "RIGHT OUTER JOIN",
@@ -1004,7 +1004,7 @@
       "textAlign": "center"
     },
     {
-      "id": "bd36f29f",
+      "id": "16e52d86",
       "type": "rectangle",
       "x": 845,
       "y": 155,
@@ -1023,17 +1023,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "fdf6eebc",
+      "id": "ae5117c6",
       "type": "text",
       "x": 853,
       "y": 177,
@@ -1052,12 +1052,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "Matched Table A\n(or NULL)",
@@ -1066,7 +1066,7 @@
       "textAlign": "center"
     },
     {
-      "id": "9401fe9b",
+      "id": "37dbda8e",
       "type": "rectangle",
       "x": 1005,
       "y": 155,
@@ -1085,17 +1085,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "ffe125cb",
+      "id": "d5821af0",
       "type": "text",
       "x": 1013,
       "y": 177,
@@ -1114,12 +1114,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false,
       "text": "All of Table B\n(Preserved)",
@@ -1128,7 +1128,7 @@
       "textAlign": "center"
     },
     {
-      "id": "ccc56c09",
+      "id": "456a2645",
       "type": "rectangle",
       "x": 840,
       "y": 230,
@@ -1147,17 +1147,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946473,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946473,
       "link": null,
       "locked": false
     },
     {
-      "id": "a08748d6",
+      "id": "5a5022e9",
       "type": "text",
       "x": 848,
       "y": 249,
@@ -1176,12 +1176,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "All B rows + matching A (or NULL)",
@@ -1190,7 +1190,7 @@
       "textAlign": "center"
     },
     {
-      "id": "12d75939",
+      "id": "c47a9291",
       "type": "text",
       "x": 848,
       "y": 267,
@@ -1209,12 +1209,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "SELECT * FROM Employees E",
@@ -1223,7 +1223,7 @@
       "textAlign": "center"
     },
     {
-      "id": "bcd2f5e5",
+      "id": "4f357e94",
       "type": "text",
       "x": 848,
       "y": 283,
@@ -1242,12 +1242,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "RIGHT JOIN Departments D",
@@ -1256,7 +1256,7 @@
       "textAlign": "center"
     },
     {
-      "id": "dee2b8d8",
+      "id": "7263c732",
       "type": "text",
       "x": 848,
       "y": 299,
@@ -1275,12 +1275,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "  ON E.dept_id = D.id;",
@@ -1289,7 +1289,7 @@
       "textAlign": "center"
     },
     {
-      "id": "bea4f5cc",
+      "id": "96fef682",
       "type": "rectangle",
       "x": 40,
       "y": 380,
@@ -1308,21 +1308,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "e9873056",
+      "id": "7fb4300f",
       "type": "rectangle",
       "x": 52,
       "y": 390,
-      "width": 336,
+      "width": 165,
       "height": 28,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -1337,21 +1337,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "e68fae6a",
+      "id": "e73edb4c",
       "type": "text",
       "x": 60,
       "y": 394,
-      "width": 320,
+      "width": 149,
       "height": 20,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -1366,12 +1366,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "FULL OUTER JOIN",
@@ -1380,7 +1380,7 @@
       "textAlign": "center"
     },
     {
-      "id": "a966492d",
+      "id": "37e0fb7b",
       "type": "rectangle",
       "x": 65,
       "y": 425,
@@ -1399,17 +1399,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "39ba7ae2",
+      "id": "731796f3",
       "type": "text",
       "x": 73,
       "y": 447,
@@ -1428,12 +1428,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "All Table A\n(Preserved)",
@@ -1442,7 +1442,7 @@
       "textAlign": "center"
     },
     {
-      "id": "a488b8b3",
+      "id": "5b4fcf1b",
       "type": "rectangle",
       "x": 225,
       "y": 425,
@@ -1461,17 +1461,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "de16a321",
+      "id": "313fab8e",
       "type": "text",
       "x": 233,
       "y": 447,
@@ -1490,12 +1490,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "All Table B\n(Preserved)",
@@ -1504,7 +1504,7 @@
       "textAlign": "center"
     },
     {
-      "id": "dad63ba0",
+      "id": "2edb16ba",
       "type": "rectangle",
       "x": 60,
       "y": 500,
@@ -1523,17 +1523,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "15a7eda8",
+      "id": "176029ec",
       "type": "text",
       "x": 68,
       "y": 519,
@@ -1552,12 +1552,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Union of all matching & unmatching rows",
@@ -1566,7 +1566,7 @@
       "textAlign": "center"
     },
     {
-      "id": "d2df4c81",
+      "id": "c2dc6f6c",
       "type": "text",
       "x": 68,
       "y": 537,
@@ -1585,12 +1585,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "SELECT * FROM A",
@@ -1599,7 +1599,7 @@
       "textAlign": "center"
     },
     {
-      "id": "c87371ff",
+      "id": "4de78cef",
       "type": "text",
       "x": 68,
       "y": 553,
@@ -1618,12 +1618,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "FULL OUTER JOIN B",
@@ -1632,7 +1632,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b7c0943a",
+      "id": "b0f42c1d",
       "type": "text",
       "x": 68,
       "y": 569,
@@ -1651,12 +1651,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "  ON A.id = B.id;",
@@ -1665,7 +1665,7 @@
       "textAlign": "center"
     },
     {
-      "id": "bbe0e55e",
+      "id": "3dce0e9a",
       "type": "rectangle",
       "x": 430,
       "y": 380,
@@ -1684,21 +1684,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "c84000c2",
+      "id": "f71965f0",
       "type": "rectangle",
       "x": 442,
       "y": 390,
-      "width": 336,
+      "width": 228,
       "height": 28,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1713,21 +1713,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "d73cda77",
+      "id": "3c7076d9",
       "type": "text",
       "x": 450,
       "y": 394,
-      "width": 320,
+      "width": 212,
       "height": 20,
       "angle": 0,
       "strokeColor": "#212529",
@@ -1742,12 +1742,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "CROSS JOIN (Cartesian)",
@@ -1756,7 +1756,7 @@
       "textAlign": "center"
     },
     {
-      "id": "e8014831",
+      "id": "add612c5",
       "type": "rectangle",
       "x": 455,
       "y": 425,
@@ -1775,17 +1775,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "be0efc30",
+      "id": "772ea932",
       "type": "text",
       "x": 463,
       "y": 447,
@@ -1804,12 +1804,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Table A\n(M rows)",
@@ -1818,7 +1818,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7023d8e2",
+      "id": "5d9f2f35",
       "type": "rectangle",
       "x": 655,
       "y": 425,
@@ -1837,17 +1837,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "949fcc94",
+      "id": "10fda899",
       "type": "text",
       "x": 663,
       "y": 447,
@@ -1866,12 +1866,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Table B\n(N rows)",
@@ -1880,7 +1880,7 @@
       "textAlign": "center"
     },
     {
-      "id": "aa1862a6",
+      "id": "9687b608",
       "type": "arrow",
       "x": 565,
       "y": 455,
@@ -1897,12 +1897,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "points": [
@@ -1918,12 +1918,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "98b293cf",
+      "id": "2ea4e8ed",
       "type": "text",
-      "x": 584,
-      "y": 437,
-      "width": 53,
-      "height": 15,
+      "x": 585,
+      "y": 435,
+      "width": 50,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
@@ -1937,21 +1937,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "M \u00d7 N",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "79e1e636",
+      "id": "0273193d",
       "type": "rectangle",
       "x": 450,
       "y": 500,
@@ -1970,17 +1970,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "bf41a6db",
+      "id": "ccc211d2",
       "type": "text",
       "x": 458,
       "y": 519,
@@ -1999,12 +1999,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Cartesian product: pairs every row",
@@ -2013,7 +2013,7 @@
       "textAlign": "center"
     },
     {
-      "id": "c95a3176",
+      "id": "9f79a111",
       "type": "text",
       "x": 458,
       "y": 537,
@@ -2032,12 +2032,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "SELECT * FROM Colors",
@@ -2046,7 +2046,7 @@
       "textAlign": "center"
     },
     {
-      "id": "dcf6b92e",
+      "id": "757cf896",
       "type": "text",
       "x": 458,
       "y": 553,
@@ -2065,12 +2065,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "CROSS JOIN Sizes;",
@@ -2079,7 +2079,7 @@
       "textAlign": "center"
     },
     {
-      "id": "790633ca",
+      "id": "7080d560",
       "type": "text",
       "x": 474,
       "y": 569,
@@ -2098,12 +2098,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "-- Produces M * N combinations",
@@ -2112,7 +2112,7 @@
       "textAlign": "left"
     },
     {
-      "id": "867098ed",
+      "id": "69462d6c",
       "type": "rectangle",
       "x": 820,
       "y": 380,
@@ -2131,21 +2131,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "2d7ccc93",
+      "id": "4d8d3c8b",
       "type": "rectangle",
       "x": 832,
       "y": 390,
-      "width": 336,
+      "width": 246,
       "height": 28,
       "angle": 0,
       "strokeColor": "#c92a2a",
@@ -2160,21 +2160,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "746ce11e",
+      "id": "626e473b",
       "type": "text",
       "x": 840,
       "y": 394,
-      "width": 320,
+      "width": 230,
       "height": 20,
       "angle": 0,
       "strokeColor": "#c92a2a",
@@ -2189,12 +2189,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "SELF JOIN (Hierarchical)",
@@ -2203,7 +2203,7 @@
       "textAlign": "center"
     },
     {
-      "id": "dc1f6152",
+      "id": "c8ed2297",
       "type": "rectangle",
       "x": 840,
       "y": 425,
@@ -2222,17 +2222,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "29a26994",
+      "id": "42ef7561",
       "type": "text",
       "x": 848,
       "y": 437,
@@ -2251,12 +2251,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Employee (E)",
@@ -2265,7 +2265,7 @@
       "textAlign": "center"
     },
     {
-      "id": "a0df92d2",
+      "id": "4c730b0b",
       "type": "text",
       "x": 848,
       "y": 455,
@@ -2284,12 +2284,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955301,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955301,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "id, mgr_id",
@@ -2298,7 +2298,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7141cd98",
+      "id": "658107d5",
       "type": "rectangle",
       "x": 1040,
       "y": 425,
@@ -2317,17 +2317,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "75e307b6",
+      "id": "a0571a3d",
       "type": "text",
       "x": 1048,
       "y": 437,
@@ -2346,12 +2346,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Manager (M)",
@@ -2360,7 +2360,7 @@
       "textAlign": "center"
     },
     {
-      "id": "35681066",
+      "id": "423a225b",
       "type": "text",
       "x": 1048,
       "y": 455,
@@ -2379,12 +2379,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "id, name",
@@ -2393,7 +2393,7 @@
       "textAlign": "center"
     },
     {
-      "id": "4c1c094c",
+      "id": "5d67f262",
       "type": "arrow",
       "x": 960,
       "y": 455,
@@ -2410,12 +2410,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "points": [
@@ -2431,12 +2431,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "676f67df",
+      "id": "aa42dcff",
       "type": "text",
-      "x": 962,
-      "y": 437,
-      "width": 76,
-      "height": 15,
+      "x": 970,
+      "y": 435,
+      "width": 60,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#c92a2a",
       "backgroundColor": "transparent",
@@ -2450,21 +2450,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "mgr = id",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "6c892aa5",
+      "id": "5ca940e1",
       "type": "rectangle",
       "x": 840,
       "y": 500,
@@ -2483,17 +2483,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false
     },
     {
-      "id": "f0d97d18",
+      "id": "0798c2d2",
       "type": "text",
       "x": 848,
       "y": 519,
@@ -2512,12 +2512,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "Joins table onto itself for tree graphs",
@@ -2526,7 +2526,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7ef5a8de",
+      "id": "0eeec90c",
       "type": "text",
       "x": 848,
       "y": 537,
@@ -2545,12 +2545,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "SELECT E.name, M.name AS mgr",
@@ -2559,7 +2559,7 @@
       "textAlign": "center"
     },
     {
-      "id": "9aec27b3",
+      "id": "c27c49cd",
       "type": "text",
       "x": 848,
       "y": 553,
@@ -2578,12 +2578,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "FROM Employees E",
@@ -2592,7 +2592,7 @@
       "textAlign": "center"
     },
     {
-      "id": "eca8c93c",
+      "id": "57857b9f",
       "type": "text",
       "x": 848,
       "y": 569,
@@ -2611,12 +2611,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 955302,
+      "seed": 946474,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795374955302,
+      "updated": 1795381946474,
       "link": null,
       "locked": false,
       "text": "LEFT JOIN Employees M ON E.mgr_id = M.id;",
