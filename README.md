@@ -2,6 +2,8 @@
 
 A curated, production-grade knowledge base and technical reference covering software architecture, distributed systems, backend engineering, cloud infrastructure, databases, and DevOps.
 
+All technical guides are enriched with professional, hand-drawn-style architectural diagrams (rendered via Excalidraw) with clear visual flows and zero-crossing layouts to make complex concepts intuitive.
+
 Designed for senior software engineers, backend architects, and interview preparation.
 
 ---
