@@ -136,7 +136,7 @@ class DiagramBuilder:
         self.elements.append(line)
         return line["id"]
 
-    def add_arrow(self, x1, y1, x2, y2, label=None, stroke="#495057", stroke_width=2, stroke_style="solid", end_arrow="arrow", label_offset_y=-20, label_bg=None, font_size=12):
+    def add_arrow(self, x1, y1, x2, y2, label=None, stroke="#495057", stroke_width=2, stroke_style="solid", end_arrow="arrow", label_offset_y=-20, label_bg="#ffffff", font_size=12):
         """Draws an arrow with optional label centered above it, with optional opaque mask."""
         dx = x2 - x1
         dy = y2 - y1
