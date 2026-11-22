@@ -1,4 +1,10 @@
-```
+# MySQL Server — From Basics to Expert
+
+![MySQL Server & InnoDB Architecture](assets/diagrams/mysql-innodb-architecture.png)
+
+## Server Installation & Diagnostics Runbook
+
+```bash
 $ curl ipecho.net/plain
 65.2.57.236
 ----------------------------------------------------------------------
