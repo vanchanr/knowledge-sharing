@@ -52,6 +52,9 @@
 - **TTL**: Time-to-live on DNS records — lower for failover speed, higher for lower DNS cost/load on resolvers.
 
 ## Networking & VPC
+
+![AWS Multi-AZ VPC Architecture](assets/diagrams/aws-ha-vpc-architecture.png)
+
 - **VPC (Virtual Private Cloud)**: Isolated virtual network; every region has a default VPC, but create custom ones with planned CIDRs.
 - **Subnets**: Ranges within the VPC CIDR — public (has route to IGW) vs private (no direct internet route).
 - **Internet Gateway (IGW)**: Horizontally scaled, redundant component allowing internet access from VPC (attached to VPC, not subnet).
