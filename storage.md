@@ -8,6 +8,9 @@
 ---
 
 ## Storage Fundamentals
+
+![Computer Storage Hierarchy Pyramid](assets/diagrams/storage-hierarchy-pyramid.png)
+
 - **Storage hierarchy**: Registers → Cache (L1/L2/L3) → RAM → SSD → HDD → Tape — each level trades speed, cost, and capacity.
 - **Latency vs throughput**: Latency = time to first byte (ms); throughput = data per second (MB/s) — different workloads need different optimizations.
 - **Durability**: Resistance to data loss (RAID, replication, erasure coding) — measured in nines (S3 = 11 nines).

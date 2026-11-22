@@ -13,6 +13,9 @@
 ---
 
 ## Core Concepts
+
+![DynamoDB Partitioning & GSI](assets/diagrams/dynamodb-partitioning-gsi.png)
+
 - **DynamoDB**: AWS's fully managed NoSQL key-value/document database — single-digit millisecond latency at any scale, serverless, highly available across 3 AZs.
 - **Table**: A collection of items — unlike SQL, tables have a flexible schema (item-level attributes).
 - **Item**: A single record in a table — composed of attributes (JSON-like); up to 400KB per item.
