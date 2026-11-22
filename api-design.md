@@ -30,6 +30,8 @@
 
 ## API Architectural Styles
 
+![API Architectural Styles Comparison](assets/diagrams/api-design-styles-comparison.png)
+
 | Feature | RESTful APIs | gRPC | GraphQL |
 | :--- | :--- | :--- | :--- |
 | **Protocol** | HTTP/1.1 or HTTP/2 | HTTP/2 (Mandatory) | HTTP/1.1 or HTTP/2 |
@@ -97,6 +99,8 @@ Return standardized JSON error objects rather than arbitrary strings:
 ---
 
 ## Authentication & Authorization
+
+![OAuth 2.0 PKCE Flow](assets/diagrams/api-design-oauth2-pkce.png)
 
 ### Authentication Mechanisms
 - **HTTP Basic Auth**: Base64 encoded `username:password` sent in `Authorization: Basic ...` header. Insecure without HTTPS; credentials sent on every request.
