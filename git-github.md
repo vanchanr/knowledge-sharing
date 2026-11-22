@@ -1,4 +1,7 @@
 # git commands
+
+![Git Workflow & Branching Architecture](assets/diagrams/git-workflow-architecture.png)
+
 ```
 >> git clone
 >> git pull

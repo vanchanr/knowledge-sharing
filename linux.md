@@ -9,6 +9,9 @@ $ sudo kill <PID>
 ---
 
 ## Core Concepts
+
+![Linux Operating System Architecture](assets/diagrams/linux-kernel-architecture.png)
+
 - **Kernel vs user space**: The kernel manages hardware/resources and provides syscalls; applications run in user space — with syscalls as the boundary.
 - **File as everything**: Everything in Linux is a file (regular files, directories, devices, sockets, pipes) — unified abstraction via file descriptors.
 - **Everything is a file**: Files, dirs, `/dev` devices, `/proc` virtual files, pipes, sockets — unified via the VFS (Virtual File System).
