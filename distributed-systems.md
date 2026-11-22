@@ -42,6 +42,8 @@ Extends CAP by evaluating tradeoffs when the network is running normally:
   - **Leader Election**: Nodes are in one of three states (`Follower`, `Candidate`, `Leader`). Randomized election timeouts prevent split-vote deadlocks.
   - **Log Replication**: The Leader accepts commands from clients, appends them to its log, and sends `AppendEntries` RPCs to followers. A log entry is committed once replicated across a majority of nodes ($N/2 + 1$).
   - **Safety Invariant**: If a leader commits an entry, that entry will be present in the logs of all future leaders (guaranteed by requiring candidates to have up-to-date logs to win elections).
+
+![Raft Consensus Protocol](assets/diagrams/distributed-systems-raft.png)
 - **Paxos Protocol**: Classic consensus protocol. Uses two phases: Phase 1 (Prepare / Promise) and Phase 2 (Accept / Accepted). High theoretical rigor, but notoriously complex to implement.
 - **Byzantine Fault Tolerance (BFT)**: Consensus in adversarial networks where nodes can not only fail, but intentionally lie or act maliciously (used in blockchain protocols like PBFT, Tendermint, PoW/PoS).
 
@@ -72,6 +74,8 @@ Extends CAP by evaluating tradeoffs when the network is running normally:
   - **Coordination**:
     - **Choreography**: Services listen to domain events and decide when to act (decentralized, good for simple flows).
     - **Orchestration**: A dedicated orchestrator service manages the transaction state machine and directs participants (centralized, easier to trace).
+
+![Saga Pattern Distributed Transactions](assets/diagrams/distributed-systems-saga.png)
 - **Transactional Outbox Pattern**:
   - Solves dual-write problems (saving to database and publishing to message queue atomically).
   - Write business data and an outgoing event message to an `OUTBOX` table in the *same local database transaction*.
