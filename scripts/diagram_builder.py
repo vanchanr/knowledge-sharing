@@ -114,6 +114,8 @@ class DiagramBuilder:
             badge_h = 28
             if badge_align == "right":
                 badge_x = x + w - badge_w - 12
+            elif badge_align == "center":
+                badge_x = x + (w - badge_w) // 2
             else:
                 badge_x = x + 12
             badge_y = y + 10
