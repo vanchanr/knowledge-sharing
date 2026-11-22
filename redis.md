@@ -1,6 +1,9 @@
 # Redis — From Basics to Expert
 
 ## Core Concepts
+
+![Redis Event Loop Architecture](assets/diagrams/redis-event-loop-architecture.png)
+
 - **Redis**: In-memory data structure store — used as cache, message broker, database, and for real-time data — single-threaded event loop, sub-millisecond latency.
 - **Keys**: Binary-safe strings (up to 512MB) — name them with conventions like `user:123:profile`, `session:abc123` for organization.
 - **Key expiration**: `EXPIRE`/`SETEX`/`TTL` — auto-delete after TTL; essential for caching and session data.
@@ -68,6 +71,9 @@
 - **Persistence trade-off**: Enable persistence for critical data; disabled (`save ""` + `appendonly no`) for pure-cache-only instances.
 
 ## High Availability
+
+![Redis Cluster & Persistence Topology](assets/diagrams/redis-cluster-persistence.png)
+
 - **Replication**: Master-replica — `replicaof <ip> <port>`; async replication; replicas serve reads (`READONLY`).
 - **Promotion/failover**: Replica promoted to master on failure — automatic via Sentinel or Cluster.
 - **Replication lag**: Replicas lag behind master (async) — reads from replicas can be stale; watch `master_repl_offset`.
