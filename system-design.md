@@ -29,6 +29,8 @@
   - Client $\to$ DNS (Geo-routing) $\to$ CDN (Static/Edge Cache) $\to$ Layer 7 Load Balancer / API Gateway $\to$ Stateless App Servers $\to$ Distributed Cache (Redis) $\to$ Database Cluster (Primary-Replica).
   - Asynchronous background paths: Event Broker (Kafka) $\to$ Consumer Workers $\to$ Search Index (Elasticsearch) / Analytics Lake (S3).
 
+![End-to-End System Architecture](assets/diagrams/system-design-architecture.png)
+
 ### Step 4: Deep Dive & Detailed Component Design (15–20 mins)
 - Schema design & indexing strategies.
 - API signatures (REST / gRPC).
@@ -70,6 +72,8 @@
   - Both servers and keys are hashed onto a circular ring. A key is assigned to the first server encountered clockwise.
   - Adding/removing a server only impacts $K/N$ keys on average.
   - **Virtual Nodes (Vnodes)**: Maps each physical server to 100–200 positions on the ring to prevent hot spots and guarantee uniform data distribution.
+
+![Consistent Hashing Ring Topology](assets/diagrams/system-design-consistent-hashing.png)
 
 ### Database Sharding & Partitioning
 - **Sharding Strategies**:
