@@ -28,6 +28,9 @@
 ---
 
 ## SQL Joins & Set Operations
+
+![SQL Joins Visual Map](assets/diagrams/sql-joins-visual-map.png)
+
 - **`INNER JOIN`**: Returns records that have matching values in both tables.
 - **`LEFT (OUTER) JOIN`**: Returns all records from the left table, and the matched records from the right table (unmatched columns are `NULL`).
 - **`RIGHT (OUTER) JOIN`**: Returns all records from the right table, and the matched records from the left table.
@@ -118,6 +121,9 @@ from DailySales;
 ---
 
 ## Indexing & Query Performance Optimization
+
+![Database B-Tree Index Search Path](assets/diagrams/database-btree-index-search.png)
+
 - **B-Tree Indexes**: Standard index structure. Efficient for equality (`=`), range queries (`<`, `<=`, `>`, `>=`, `BETWEEN`), and prefix searches (`LIKE 'abc%'`).
 - **Composite Indexes & The Leftmost Prefix Rule**:
   - An index on `(A, B, C)` can satisfy queries filtering on `(A)`, `(A, B)`, or `(A, B, C)`.

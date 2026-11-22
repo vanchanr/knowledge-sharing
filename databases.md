@@ -72,6 +72,9 @@
 - **SET operations**: UNION (dedup), UNION ALL (faster, no dedup), INTERSECT, EXCEPT.
 
 ## Indexing Deep Dive
+
+![Database B-Tree Index Search Path](assets/diagrams/database-btree-index-search.png)
+
 - **B-tree index (default)**: Balanced tree — good for equality and range queries (>, <, BETWEEN, prefix match).
 - **Composite (multi-column) index**: Order matters — leftmost prefix rule; `(a, b, c)` serves WHERE a / a+b / a+b+c.
 - **Covering index**: Index includes all columns needed by the query — avoids table heap lookup (index-only scan).
