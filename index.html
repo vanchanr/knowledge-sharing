@@ -1,16 +1,198 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curated engineering reference and knowledge base covering system design, distributed systems, backend architecture, and cloud infrastructure.">
+  <title>Engineering Knowledge Base | vanchanr</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #7dd3fc;
+      --tag-bg: #0284c7;
+      --tag-text: #e0f2fe;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card-bg: #ffffff;
+        --card-border: #e2e8f0;
+        --text: #0f172a;
+        --text-muted: #64748b;
+        --accent: #0284c7;
+        --accent-hover: #0369a1;
+        --tag-bg: #e0f2fe;
+        --tag-text: #0369a1;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+    h1 span { color: var(--accent); }
+    p.lead {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 750px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      flex-grow: 1;
+      margin-bottom: 1rem;
+    }
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .link-tag {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--card-border);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    .link-tag:hover {
+      background: var(--accent);
+      color: #0f172a;
+    }
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--card-border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
 </head>
-
 <body>
-  Serving from Github
-  <script src="script.js"></script>
-</body>
+  <header>
+    <h1>Knowledge <span>Sharing</span></h1>
+    <p class="lead">Curated technical notes, deep dives, and architectural blueprints across distributed systems, backend engineering, cloud infrastructure, and databases.</p>
+  </header>
 
+  <main class="grid">
+    <div class="card">
+      <h2>Architecture & Design</h2>
+      <p>System design frameworks, architectural patterns (Monolith, Microservices), SOLID principles, and C4 visualization.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/system-design.md">System Design</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/software-design-architecture.md">Architecture</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/software-architect.md">Leadership</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/api-design.md">API Design</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Distributed Systems</h2>
+      <p>CAP and PACELC theorems, consensus protocols (Raft, Paxos), replication, 2PC, Sagas, and fault tolerance.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/distributed-systems.md">Distributed Systems</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/kafka.md">Kafka</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/networks.md">Networking</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Backend Engineering</h2>
+      <p>Modern Java (8-21), JVM internals & GC, Spring Boot autoconfiguration, JPA/Hibernate, and Spring Security.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/java.md">Java</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/spring-boot.md">Spring Boot</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/sql.md">SQL</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Databases & Caching</h2>
+      <p>Relational internals, B-Trees, transaction isolation levels, Redis data structures, DynamoDB, and Elasticsearch.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/databases.md">Databases</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/redis.md">Redis</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/dynamodb.md">DynamoDB</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/elasticsearch.md">Elasticsearch</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/storage.md">Storage</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Cloud & DevOps</h2>
+      <p>Kubernetes orchestration, Docker internals, CI/CD pipelines, GitOps with ArgoCD, and AWS architecture.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/kubernetes/kubernetes.md">Kubernetes</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/docker.md">Docker</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/ci-cd.md">CI/CD</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/devops.md">DevOps</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/aws.md">AWS</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/linux.md">Linux</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Emerging Tech & Career</h2>
+      <p>Generative AI & LLMs, Transformer architectures, RAG pipelines, engineering level rubrics, and resume optimization.</p>
+      <div class="card-links">
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/gen-ai.md">GenAI & LLMs</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/tree/main/Eng-roles">Career Rubrics</a>
+        <a class="link-tag" href="https://github.com/vanchanr/knowledge-sharing/blob/main/resume-optimization-backend.txt">Resume Guide</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Maintained by <a href="https://github.com/vanchanr" target="_blank" rel="noopener">@vanchanr</a> &bull; Source code on <a href="https://github.com/vanchanr/knowledge-sharing" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+</body>
 </html>
