@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate perfected System Design diagrams."""
+"""Generate perfected System Design diagrams with zero defects."""
 import sys
 sys.path.insert(0, "/data/data/com.termux/files/home/knowledge-sharing/scripts")
 from diagram_builder import DiagramBuilder
@@ -13,112 +13,170 @@ def generate_system_architecture():
     )
 
     # 1. Clients Tier (w=150, x=40..190)
-    d.add_container(40, 110, 160, 340, label="Client Tier", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2")
+    d.add_container(40, 110, 160, 330, label="Client Tier", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2", badge_align="left")
     d.add_box(55, 155, 130, 48, "Web Browser", "React / Vue SPA", bg="#ffffff", stroke="#1971c2", text_color="#1971c2")
     d.add_box(55, 220, 130, 48, "Mobile App", "iOS / Android Native", bg="#ffffff", stroke="#1971c2", text_color="#1971c2")
     d.add_box(55, 285, 130, 48, "External Clients", "3rd-Party Webhooks", bg="#ffffff", stroke="#1971c2", text_color="#1971c2")
 
-    # Arrow: Clients -> Edge (gap = 75px)
-    d.add_arrow(200, 250, 275, 250, label="HTTPS", stroke="#1971c2", label_offset_y=-20)
+    # Arrow: Clients -> Edge (gap = 80px)
+    d.add_arrow(200, 242, 280, 242, stroke="#1971c2")
+    d.add_text(215, 222, "HTTPS", stroke="#1971c2", font_size=11, align="left", w=60)
 
-    # 2. Edge Layer (w=160, x=275..435)
-    d.add_container(275, 110, 165, 340, label="Edge & Routing", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e")
-    d.add_box(290, 165, 135, 55, "Route 53 / DNS", "Anycast Geo-DNS", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e")
-    d.add_box(290, 245, 135, 55, "CDN Edge Cache", "CloudFront / Cloudflare", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e")
+    # 2. Edge Layer (w=165, x=280..445)
+    d.add_container(280, 110, 165, 330, label="Edge & Routing", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e", badge_align="left")
+    d.add_box(295, 165, 135, 55, "Route 53 / DNS", "Anycast Geo-DNS", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e")
+    d.add_box(295, 245, 135, 55, "CDN Edge Cache", "CloudFront / Cloudflare", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e")
 
     # Arrow: Edge -> Gateway (gap = 75px)
-    d.add_arrow(440, 242, 515, 242, label="TLS", stroke="#2b8a3e", label_offset_y=-20)
+    d.add_arrow(445, 242, 520, 242, stroke="#2b8a3e")
+    d.add_text(465, 222, "TLS", stroke="#2b8a3e", font_size=11, align="left", w=50)
 
-    # 3. API Gateway / Load Balancer (w=150, x=515..665)
-    d.add_box(515, 205, 150, 75, "API Gateway", ["L7 Load Balancer", "Auth & Rate Limit"], bg="#fff3bf", stroke="#f59f00", text_color="#d9480f")
+    # 3. API Gateway / Load Balancer (w=150, x=520..670)
+    d.add_box(520, 205, 150, 75, "API Gateway", ["L7 Reverse Proxy", "Auth & Rate Limit"], bg="#fff3bf", stroke="#f59f00", text_color="#d9480f")
 
-    # Arrow: Gateway -> App Cluster (gap = 75px)
-    d.add_arrow(665, 242, 740, 242, label="LB Route", stroke="#f59f00", label_offset_y=-20)
+    # Arrow: Gateway -> App Cluster (gap = 85px)
+    d.add_arrow(670, 242, 755, 242, stroke="#f59f00")
+    d.add_text(685, 222, "LB Route", stroke="#f59f00", font_size=11, align="left", w=65)
 
-    # 4. Stateless App Cluster (w=165, x=740..905)
-    d.add_container(740, 110, 170, 340, label="App Cluster", stroke="#f59f00", badge_bg="#fff3bf", badge_stroke="#f59f00", label_color="#d9480f")
-    d.add_box(755, 155, 140, 48, "App Service 1", "Stateless Worker", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
-    d.add_box(755, 220, 140, 48, "App Service 2", "Autoscaling Group", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
-    d.add_box(755, 285, 140, 48, "App Service 3", "Container / Pod", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
+    # 4. Stateless App Cluster (w=170, x=755..925)
+    d.add_container(755, 110, 170, 330, label="App Cluster", stroke="#f59f00", badge_bg="#fff3bf", badge_stroke="#f59f00", label_color="#d9480f", badge_align="left")
+    d.add_box(770, 155, 140, 48, "App Service 1", "Stateless Worker", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
+    d.add_box(770, 220, 140, 48, "App Service 2", "Autoscaling Group", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
+    d.add_box(770, 285, 140, 48, "App Service 3", "Container / Pod", bg="#ffffff", stroke="#f59f00", text_color="#d9480f")
 
-    # Arrows: App Cluster -> Data Layer (gap = 75px)
-    d.add_arrow(910, 174, 980, 174, label="Cache", stroke="#e03131", label_offset_y=-18, font_size=11)
-    d.add_arrow(910, 239, 980, 239, label="Write", stroke="#9c36b5", label_offset_y=-18, font_size=11)
-    d.add_arrow(910, 304, 980, 304, label="Read", stroke="#9c36b5", label_offset_y=-18, font_size=11)
+    # Arrows: App Cluster -> Storage Tier (gap = 65px)
+    d.add_arrow(925, 170, 990, 170, stroke="#e03131")
+    d.add_text(935, 152, "Cache", stroke="#e03131", font_size=11, align="left", w=50)
 
-    # 5. Data & Storage Tier (w=200, x=980..1180)
-    d.add_container(980, 110, 200, 340, label="Data & Storage", stroke="#c92a2a", badge_bg="#ffe3e3", badge_stroke="#c92a2a", label_color="#c92a2a")
-    d.add_box(995, 150, 170, 48, "Redis Cluster", "Cache & Session", bg="#ffffff", stroke="#e03131", text_color="#c92a2a")
-    d.add_box(995, 215, 170, 48, "Primary DB", "ACID Master (Writes)", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5")
-    d.add_box(995, 280, 170, 48, "Read Replicas", "Scale-Out Reads", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5")
-    d.add_box(995, 345, 170, 48, "Object Store (S3)", "Blobs & Backups", bg="#ffffff", stroke="#1098ad", text_color="#0c8599")
+    d.add_arrow(925, 225, 990, 225, stroke="#9c36b5")
+    d.add_text(935, 207, "Write", stroke="#9c36b5", font_size=11, align="left", w=50)
+
+    d.add_arrow(925, 280, 990, 280, stroke="#9c36b5")
+    d.add_text(935, 262, "Read", stroke="#9c36b5", font_size=11, align="left", w=50)
+
+    # 5. Data & Storage Tier (w=190, x=990..1180)
+    d.add_container(990, 110, 190, 330, label="Data & Storage", stroke="#c92a2a", badge_bg="#ffe3e3", badge_stroke="#c92a2a", label_color="#c92a2a", badge_align="left")
+    d.add_box(1005, 148, 160, 45, "Redis Cluster", "Cache & Session", bg="#ffffff", stroke="#e03131", text_color="#c92a2a")
+    d.add_box(1005, 203, 160, 45, "Primary DB", "ACID Master (Writes)", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5")
+    d.add_box(1005, 258, 160, 45, "Read Replicas", "Scale-Out Reads", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5")
+    d.add_box(1005, 313, 160, 45, "Object Store (S3)", "Blobs & Backups", bg="#ffffff", stroke="#1098ad", text_color="#0c8599")
 
     # DB Replication Arrow
-    d.add_arrow(1080, 263, 1080, 280, stroke="#9c36b5", stroke_style="dashed")
+    d.add_arrow(1085, 248, 1085, 258, stroke="#9c36b5", stroke_style="dashed")
 
-    # 6. Bottom Async Streaming Tier
-    d.add_container(275, 470, 905, 140, label="Asynchronous Event Streaming & Worker Pipeline", stroke="#0ca678", badge_bg="#e6fcf5", badge_stroke="#0ca678", label_color="#0ca678")
-    d.add_box(295, 515, 240, 60, "Kafka Message Bus", "Durable Event Partitions", bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
-    d.add_box(610, 515, 240, 60, "Async Worker Pool", "Background Jobs / Celery", bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
-    d.add_box(920, 515, 240, 60, "Elasticsearch & S3", "Log Aggregation & Search", bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
+    # 6. Bottom Async Streaming & Worker Tier (Full width x=40..1180)
+    d.add_container(40, 480, 1140, 140, label="Asynchronous Event Streaming & Worker Pipeline", stroke="#0ca678", badge_bg="#e6fcf5", badge_stroke="#0ca678", label_color="#0ca678", badge_align="left")
 
-    # App Cluster to Kafka (downward arrow)
-    d.add_arrow(825, 450, 825, 470, stroke="#0ca678")
+    # Bottom layout:
+    # Right: Kafka directly under App Cluster (x=750..930)
+    d.add_box(750, 520, 185, 65, "Kafka Message Bus", ["Durable Event Partitions", "Commit Log on Disk"], bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
 
-    # Pipeline arrows
-    d.add_arrow(535, 545, 610, 545, label="Consume Events", stroke="#0ca678", label_offset_y=-18)
-    d.add_arrow(850, 545, 920, 545, label="Sync / Index", stroke="#0ca678", label_offset_y=-18)
+    # Center: Async Workers (x=430..630)
+    d.add_box(430, 520, 200, 65, "Async Worker Pool", ["Celery / K8s Job Runners", "Idempotent Retry & DLQ"], bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
+
+    # Left: Search & Storage (x=100..310)
+    d.add_box(100, 520, 210, 65, "Elasticsearch & S3", ["Full-Text Lucene Indexes", "Analytical Parquet Lake"], bg="#ffffff", stroke="#0ca678", text_color="#0ca678")
+
+    # Vertical drop from App Cluster down to Kafka: straight clean line!
+    d.add_arrow(842, 440, 842, 520, stroke="#0ca678")
+    d.add_text(852, 452, "Publish Events", stroke="#0ca678", font_size=11, align="left", w=110)
+
+    # Kafka -> Async Worker Pool (gap from 750 to 630 = 120px!)
+    d.add_arrow(750, 552, 630, 552, stroke="#0ca678")
+    d.add_text(638, 530, "Consume Events", stroke="#0ca678", font_size=11, align="left", w=110)
+
+    # Async Worker Pool -> Elasticsearch (gap from 430 to 310 = 120px!)
+    d.add_arrow(430, 552, 310, 552, stroke="#0ca678")
+    d.add_text(320, 530, "Sync & Index", stroke="#0ca678", font_size=11, align="left", w=105)
+
+    # Bottom takeaway bar
+    d.add_box(40, 638, 1140, 45, "Architectural Invariant: Decouple Synchronous Request Paths from Asynchronous Event Pipelines", [
+        "Synchronous user transactions execute within 50ms via Memory Cache & DB; long-running computations are offloaded to Kafka."
+    ], bg="#f8f9fa", stroke="#dee2e6", text_color="#495057", font_size=12)
 
     d.render("system-design-architecture.png")
+
 
 def generate_consistent_hashing():
     d = DiagramBuilder()
     d.add_header(
         "Consistent Hashing Ring Topology with Virtual Nodes",
-        "O(1) Distributed Routing, Minimal Key Remapping, and Resilient Rebalancing",
-        x=40, y=25, w=1040, h=65
+        "O(1) Distributed Partitioning, Minimal Key Remapping, and Non-Disruptive Node Scaling",
+        x=40, y=25, w=1140, h=65
     )
 
-    # Master Ring Container encompassing everything cleanly
-    d.add_container(40, 110, 1040, 400, label="Consistent Hash Ring: Modulo Range [0, 2^32 - 1]", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2")
+    # Master Ring Container (badge on right leaves top-left completely open)
+    d.add_container(40, 110, 1140, 480, label="Consistent Hash Ring: Modulo Range [0, 2^32 - 1]", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2", badge_align="right")
 
-    # Keys inside the container
-    # Key 1
-    d.add_box(65, 175, 160, 55, "Key 1 (hash: 104)", "user_id: 88291", bg="#f8f9fa", stroke="#495057", text_color="#212529")
-    # Key 2
-    d.add_box(895, 175, 160, 55, "Key 2 (hash: 850)", "item_id: 44012", bg="#f8f9fa", stroke="#495057", text_color="#212529")
-    # Key 3
-    d.add_box(895, 365, 160, 55, "Key 3 (hash: 1420)", "order_id: 9931", bg="#f8f9fa", stroke="#495057", text_color="#212529")
+    # 6 Nodes on circular ring perimeter:
+    # Top Center: Node A1
+    d.add_box(485, 175, 170, 55, "Node A1", "Server A (Primary)", bg="#e7f5ff", stroke="#1971c2", text_color="#1971c2")
 
-    # Nodes on the Ring
-    d.add_box(300, 170, 170, 60, "Node A1", "Server A (Primary)", bg="#e7f5ff", stroke="#1971c2", text_color="#1971c2")
-    d.add_box(650, 170, 170, 60, "Node B1", "Server B (Primary)", bg="#ebfbee", stroke="#2b8a3e", text_color="#2b8a3e")
-    d.add_box(650, 360, 170, 60, "Node C1", "Server C (Primary)", bg="#fff3bf", stroke="#f59f00", text_color="#d9480f")
-    d.add_box(300, 360, 170, 60, "Node A2", "Virtual Node (Server A)", bg="#e7f5ff", stroke="#1971c2", text_color="#1971c2")
+    # Top Right: Node B1
+    d.add_box(790, 250, 165, 55, "Node B1", "Server B (Primary)", bg="#ebfbee", stroke="#2b8a3e", text_color="#2b8a3e")
 
-    # Routing arrows from keys to nodes (clear spacing, label above line)
-    d.add_arrow(225, 200, 300, 200, label="Routes to", stroke="#1971c2", label_offset_y=-22, font_size=11)
-    d.add_arrow(895, 200, 820, 200, label="Routes to", stroke="#2b8a3e", label_offset_y=-22, font_size=11)
-    d.add_arrow(895, 390, 820, 390, label="Routes to", stroke="#f59f00", label_offset_y=-22, font_size=11)
+    # Bottom Right: Node C1
+    d.add_box(790, 410, 165, 55, "Node C1", "Server C (Primary)", bg="#fff3bf", stroke="#f59f00", text_color="#d9480f")
 
-    # Clockwise Ring Connections
-    d.add_arrow(470, 200, 650, 200, label="Clockwise Range", stroke="#1971c2", label_offset_y=-22)
-    # Vertical arrow from B1 to C1 (pointing down)
-    d.add_arrow(735, 230, 735, 360, stroke="#2b8a3e")
-    d.add_text(745, 285, "Clockwise Range", font_size=11, stroke="#2b8a3e", align="left", w=120)
+    # Bottom Center: Node A2 (Virtual Node)
+    d.add_box(485, 490, 170, 55, "Node A2", "Virtual Node (Server A)", bg="#e7f5ff", stroke="#1971c2", text_color="#1971c2")
 
-    # Bottom arrow from C1 to A2 (pointing left)
-    d.add_arrow(650, 390, 470, 390, label="Clockwise Range", stroke="#f59f00", label_offset_y=16)
+    # Bottom Left: Node B2 (Virtual Node)
+    d.add_box(185, 410, 165, 55, "Node B2", "Virtual Node (Server B)", bg="#ebfbee", stroke="#2b8a3e", text_color="#2b8a3e")
 
-    # Vertical arrow from A2 to A1 (pointing up)
-    d.add_arrow(385, 360, 385, 230, stroke="#1971c2")
-    d.add_text(285, 285, "Clockwise Range", font_size=11, stroke="#1971c2", align="left", w=120)
+    # Top Left: Node C2 (Virtual Node)
+    d.add_box(185, 250, 165, 55, "Node C2", "Virtual Node (Server C)", bg="#fff3bf", stroke="#f59f00", text_color="#d9480f")
+
+    # Clockwise Perimeter Arrows connecting the 6 nodes cleanly:
+    # 1. C2 -> A1
+    d.add_arrow(350, 260, 485, 205, stroke="#1971c2")
+    d.add_text(360, 215, "Clockwise Range", stroke="#1971c2", font_size=11, align="left", w=110)
+
+    # 2. A1 -> B1
+    d.add_arrow(655, 205, 790, 260, stroke="#2b8a3e")
+    d.add_text(700, 215, "Clockwise Range", stroke="#2b8a3e", font_size=11, align="left", w=110)
+
+    # 3. B1 -> C1 (Straight vertical)
+    d.add_arrow(872, 305, 872, 410, stroke="#f59f00")
+    d.add_text(882, 350, "Clockwise Range", stroke="#f59f00", font_size=11, align="left", w=110)
+
+    # 4. C1 -> A2
+    d.add_arrow(790, 435, 655, 490, stroke="#1971c2")
+    d.add_text(700, 455, "Clockwise Range", stroke="#1971c2", font_size=11, align="left", w=110)
+
+    # 5. A2 -> B2
+    d.add_arrow(485, 490, 350, 435, stroke="#2b8a3e")
+    d.add_text(360, 455, "Clockwise Range", stroke="#2b8a3e", font_size=11, align="left", w=110)
+
+    # 6. B2 -> C2 (Straight vertical)
+    d.add_arrow(267, 410, 267, 305, stroke="#f59f00")
+    d.add_text(157, 350, "Clockwise Range", stroke="#f59f00", font_size=11, align="left", w=110)
+
+    # Distributed Keys with clean routing arrows into nearest clockwise node:
+    # Key 1: top-left (open area, gap = 60px)
+    d.add_box(280, 145, 140, 48, "Key: user_88", "hash: 140 -> Node A1", bg="#f8f9fa", stroke="#495057", text_color="#212529")
+    d.add_arrow(420, 169, 485, 195, stroke="#1971c2")
+
+    # Key 2: top right (gap to Node B1 = 35px)
+    d.add_box(990, 200, 140, 48, "Key: item_44", "hash: 720 -> Node B1", bg="#f8f9fa", stroke="#495057", text_color="#212529")
+    d.add_arrow(990, 235, 955, 265, stroke="#2b8a3e")
+
+    # Key 3: bottom right (gap to Node C1 = 35px)
+    d.add_box(990, 440, 140, 48, "Key: order_99", "hash: 1350 -> Node C1", bg="#f8f9fa", stroke="#495057", text_color="#212529")
+    d.add_arrow(990, 450, 955, 430, stroke="#f59f00")
+
+    # Key 4: bottom left (Node B2 starts at 185, Key ends at 165 -> 20px clear gap!)
+    d.add_box(45, 440, 120, 48, "Key: cart_12", "hash: 2890 -> B2", bg="#f8f9fa", stroke="#495057", text_color="#212529")
+    d.add_arrow(165, 455, 185, 440, stroke="#2b8a3e")
+
+    # Center Hash Space Label
+    d.add_box(465, 320, 210, 60, "Virtual Node Mesh", ["Uniform Key Distribution", "Zero Hotspots across Nodes"], bg="#ffffff", stroke="#dee2e6", text_color="#495057", font_size=12)
 
     # Bottom Properties Container
-    d.add_container(40, 530, 1040, 120, label="Core Distributed Properties of Consistent Hashing", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e")
-    d.add_box(60, 570, 1000, 60, "Minimal Key Remapping & Uniform Load Balancing", [
-        "• Rebalancing Cost: When a node joins or leaves, only K/N keys are redistributed (traditional hash % N invalidates 100%).",
-        "• Virtual Nodes (A1, A2... An): Prevents hot spots and guarantees uniform hash distribution across heterogeneous servers."
+    d.add_container(40, 605, 1140, 110, label="Core Distributed Invariants of Consistent Hashing", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e", badge_align="left")
+    d.add_box(55, 642, 1110, 55, "Minimal Key Remapping & Uniform Load Balancing", [
+        "• Rebalancing Cost: When a node joins or leaves, only K/N keys are redistributed (traditional hash % N invalidates 100% of cache keys).",
+        "• Virtual Nodes (A1, A2... An): Guarantees uniform key dispersal across heterogeneous servers, preventing hot spots."
     ], bg="#ffffff", stroke="#dee2e6", text_color="#2b8a3e", font_size=12)
 
     d.render("system-design-consistent-hashing.png")
