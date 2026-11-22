@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "b209f6c0",
+      "id": "45289894",
       "type": "rectangle",
       "x": 40,
       "y": 25,
@@ -23,17 +23,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "515b08d5",
+      "id": "21653db0",
       "type": "text",
       "x": 50,
       "y": 35,
@@ -52,12 +52,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "TCP Connection Lifecycle: 3-Way Handshake & 4-Way Teardown",
@@ -66,7 +66,7 @@
       "textAlign": "center"
     },
     {
-      "id": "c6e663f8",
+      "id": "fd846c7e",
       "type": "text",
       "x": 50,
       "y": 63,
@@ -85,12 +85,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "Reliable Connection Establishment, Full-Duplex FIN Termination, and TIME_WAIT State",
@@ -99,7 +99,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b317225f",
+      "id": "bc565641",
       "type": "rectangle",
       "x": 140,
       "y": 110,
@@ -118,17 +118,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "23ac42de",
+      "id": "d5761da9",
       "type": "text",
       "x": 148,
       "y": 116,
@@ -147,12 +147,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "TCP Client",
@@ -161,7 +161,7 @@
       "textAlign": "center"
     },
     {
-      "id": "5ca760b2",
+      "id": "c35d976a",
       "type": "text",
       "x": 148,
       "y": 137,
@@ -180,12 +180,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "Active Opener",
@@ -194,7 +194,7 @@
       "textAlign": "center"
     },
     {
-      "id": "f72c5c58",
+      "id": "057a7611",
       "type": "rectangle",
       "x": 780,
       "y": 110,
@@ -213,17 +213,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "40ff3e43",
+      "id": "f145f0a0",
       "type": "text",
       "x": 788,
       "y": 116,
@@ -242,12 +242,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "TCP Server",
@@ -256,7 +256,7 @@
       "textAlign": "center"
     },
     {
-      "id": "645b0d9b",
+      "id": "9dc68475",
       "type": "text",
       "x": 788,
       "y": 137,
@@ -275,12 +275,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "Passive Listener",
@@ -289,7 +289,7 @@
       "textAlign": "center"
     },
     {
-      "id": "4e24e5c2",
+      "id": "c673607c",
       "type": "line",
       "x": 240,
       "y": 165,
@@ -306,12 +306,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": "b60831b4",
+      "id": "8fc61bc4",
       "type": "line",
       "x": 880,
       "y": 165,
@@ -343,12 +343,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "id": "3c68987e",
+      "id": "c9e3bbf6",
       "type": "rectangle",
       "x": 50,
       "y": 180,
@@ -382,21 +382,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "bd568eba",
+      "id": "b3146005",
       "type": "rectangle",
-      "x": 62,
+      "x": 360,
       "y": 190,
-      "width": 996,
+      "width": 399,
       "height": 28,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -411,21 +411,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "476756de",
+      "id": "8d2fba1e",
       "type": "text",
-      "x": 70,
+      "x": 368,
       "y": 194,
-      "width": 980,
+      "width": 383,
       "height": 20,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -440,12 +440,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "3-Way Handshake: Connection Establishment",
@@ -454,7 +454,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b9ecd15d",
+      "id": "410c4bfb",
       "type": "arrow",
       "x": 240,
       "y": 255,
@@ -471,12 +471,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -492,7 +492,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "b295e696",
+      "id": "92e1534d",
       "type": "rectangle",
       "x": 414,
       "y": 232,
@@ -511,17 +511,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "c48b66df",
+      "id": "7b9b6886",
       "type": "text",
       "x": 414,
       "y": 234,
@@ -540,12 +540,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "1. SYN (seq = X) [Client -> SYN_SENT]",
@@ -554,7 +554,7 @@
       "textAlign": "center"
     },
     {
-      "id": "aec55a2a",
+      "id": "655fc8b2",
       "type": "arrow",
       "x": 880,
       "y": 310,
@@ -571,12 +571,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -592,7 +592,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "a82eee98",
+      "id": "748d5490",
       "type": "rectangle",
       "x": 350,
       "y": 287,
@@ -611,17 +611,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "6f926bd7",
+      "id": "60d43420",
       "type": "text",
       "x": 350,
       "y": 289,
@@ -640,12 +640,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "2. SYN-ACK (seq = Y, ack = X + 1) [Server -> SYN_RCVD]",
@@ -654,7 +654,7 @@
       "textAlign": "center"
     },
     {
-      "id": "df025d12",
+      "id": "2448ac61",
       "type": "arrow",
       "x": 240,
       "y": 365,
@@ -671,12 +671,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -692,7 +692,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "3cca8194",
+      "id": "41f67151",
       "type": "rectangle",
       "x": 335,
       "y": 342,
@@ -711,17 +711,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "67462002",
+      "id": "1174ccc5",
       "type": "text",
       "x": 335,
       "y": 344,
@@ -740,12 +740,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "3. ACK (ack = Y + 1) [Connection ESTABLISHED on both ends]",
@@ -754,7 +754,7 @@
       "textAlign": "center"
     },
     {
-      "id": "35dc3e32",
+      "id": "f1c4bf3b",
       "type": "rectangle",
       "x": 50,
       "y": 415,
@@ -773,21 +773,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "c59d8011",
+      "id": "40512104",
       "type": "rectangle",
-      "x": 62,
+      "x": 333,
       "y": 425,
-      "width": 996,
+      "width": 453,
       "height": 28,
       "angle": 0,
       "strokeColor": "#c92a2a",
@@ -802,21 +802,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "6e5dbe15",
+      "id": "c7c5d4da",
       "type": "text",
-      "x": 70,
+      "x": 341,
       "y": 429,
-      "width": 980,
+      "width": 437,
       "height": 20,
       "angle": 0,
       "strokeColor": "#c92a2a",
@@ -831,12 +831,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "4-Way Teardown: Graceful Connection Termination",
@@ -845,7 +845,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b401815d",
+      "id": "93707460",
       "type": "arrow",
       "x": 240,
       "y": 490,
@@ -862,12 +862,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -883,7 +883,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "b3db89dd",
+      "id": "419573ab",
       "type": "rectangle",
       "x": 350,
       "y": 467,
@@ -902,17 +902,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "4e200e45",
+      "id": "aa316cf9",
       "type": "text",
       "x": 350,
       "y": 469,
@@ -931,12 +931,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "1. FIN (Client initiates close) [Client -> FIN_WAIT_1]",
@@ -945,7 +945,7 @@
       "textAlign": "center"
     },
     {
-      "id": "0a0b375a",
+      "id": "990c01ad",
       "type": "arrow",
       "x": 880,
       "y": 540,
@@ -962,12 +962,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544102,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544102,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -983,7 +983,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "bf7e1dab",
+      "id": "f15ffe86",
       "type": "rectangle",
       "x": 290,
       "y": 517,
@@ -1002,17 +1002,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "f2d4a641",
+      "id": "d33ad1e2",
       "type": "text",
       "x": 290,
       "y": 519,
@@ -1031,12 +1031,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "2. ACK (Server acks FIN) [Client -> FIN_WAIT_2 | Server -> CLOSE_WAIT]",
@@ -1045,7 +1045,7 @@
       "textAlign": "center"
     },
     {
-      "id": "5bffcccf",
+      "id": "6de7882f",
       "type": "arrow",
       "x": 880,
       "y": 590,
@@ -1062,12 +1062,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "points": [
@@ -1083,7 +1083,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "abe63ccd",
+      "id": "d22229ba",
       "type": "rectangle",
       "x": 335,
       "y": 567,
@@ -1102,17 +1102,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376089,
       "link": null,
       "locked": false
     },
     {
-      "id": "6f0adcbd",
+      "id": "9f2123a4",
       "type": "text",
       "x": 335,
       "y": 569,
@@ -1131,12 +1131,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376089,
       "link": null,
       "locked": false,
       "text": "3. FIN (Server closes remaining half) [Server -> LAST_ACK]",
@@ -1145,7 +1145,7 @@
       "textAlign": "center"
     },
     {
-      "id": "2ea7e9f6",
+      "id": "6ab8b3dc",
       "type": "arrow",
       "x": 240,
       "y": 640,
@@ -1162,12 +1162,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 544103,
+      "seed": 376089,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376090,
       "link": null,
       "locked": false,
       "points": [
@@ -1183,7 +1183,7 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "c42f8176",
+      "id": "4c8f4827",
       "type": "rectangle",
       "x": 286,
       "y": 617,
@@ -1202,17 +1202,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 544103,
+      "seed": 376090,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376090,
       "link": null,
       "locked": false
     },
     {
-      "id": "ddecbf0b",
+      "id": "fcc1f19f",
       "type": "text",
       "x": 286,
       "y": 619,
@@ -1231,12 +1231,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 544103,
+      "seed": 376090,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375544103,
+      "updated": 1795382376090,
       "link": null,
       "locked": false,
       "text": "4. ACK (Client acks) [Client -> TIME_WAIT (2 x MSL) | Server -> CLOSED]",

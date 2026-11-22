@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate perfected Computer Networks diagrams."""
+"""Generate perfected Computer Networks diagrams with zero defects."""
 import sys
 sys.path.insert(0, "/data/data/com.termux/files/home/knowledge-sharing/scripts")
 from diagram_builder import DiagramBuilder
@@ -13,7 +13,7 @@ def generate_osi_tcpip():
     )
 
     # 1. OSI 7-Layer Container (Left: 40..360, w=320)
-    d.add_container(40, 110, 320, 520, label="OSI 7-Layer Reference Model (ISO)", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2")
+    d.add_container(40, 110, 320, 520, label="OSI 7-Layer Reference Model (ISO)", stroke="#1971c2", badge_bg="#e7f5ff", badge_stroke="#1971c2", label_color="#1971c2", badge_align="left")
 
     layers = [
         ("7. Application Layer", "HTTP, DNS, SSH, SMTP", "#e7f5ff", "#1971c2"),
@@ -36,45 +36,53 @@ def generate_osi_tcpip():
     ], bg="#ffffff", stroke="#dee2e6", text_color="#495057", font_size=11)
 
     # Mapping Arrows (OSI -> TCP/IP, gap = 360 to 480 = 120px)
-    d.add_arrow(360, 230, 480, 230, label="Consolidates", stroke="#1971c2", label_offset_y=-18, font_size=11)
-    d.add_arrow(360, 332, 480, 332, label="1 : 1 Map", stroke="#2b8a3e", label_offset_y=-18, font_size=11)
-    d.add_arrow(360, 382, 480, 382, label="1 : 1 Map", stroke="#f59f00", label_offset_y=-18, font_size=11)
-    d.add_arrow(360, 460, 480, 460, label="Consolidates", stroke="#9c36b5", label_offset_y=-18, font_size=11)
+    d.add_arrow(360, 230, 480, 230, stroke="#1971c2")
+    d.add_text(375, 210, "Consolidates", stroke="#1971c2", font_size=11, align="left", w=95)
+
+    d.add_arrow(360, 332, 480, 332, stroke="#2b8a3e")
+    d.add_text(385, 312, "1 : 1 Map", stroke="#2b8a3e", font_size=11, align="left", w=80)
+
+    d.add_arrow(360, 382, 480, 382, stroke="#f59f00")
+    d.add_text(385, 362, "1 : 1 Map", stroke="#f59f00", font_size=11, align="left", w=80)
+
+    d.add_arrow(360, 460, 480, 460, stroke="#9c36b5")
+    d.add_text(375, 440, "Consolidates", stroke="#9c36b5", font_size=11, align="left", w=95)
 
     # 2. TCP/IP Container (Right: 480..1180, w=700)
-    d.add_container(480, 110, 720, 520, label="TCP/IP 4-Layer Internet Model & Protocol Data Units (PDUs)", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e")
+    d.add_container(480, 110, 700, 520, label="TCP/IP 4-Layer Internet Model & Protocol Data Units (PDUs)", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e", badge_align="left")
 
     # TCP/IP Layer 4: Application
-    d.add_box(500, 155, 360, 144, "Application Layer", [
+    d.add_box(500, 155, 350, 144, "Application Layer", [
         "HTTP/1.1, HTTP/2, HTTP/3 (QUIC)",
         "gRPC, DNS, SMTP, WebSockets",
         "",
         "Consolidates OSI Layers 7, 6, and 5"
     ], bg="#e7f5ff", stroke="#1971c2", text_color="#1971c2", font_size=12)
-    d.add_box(880, 185, 300, 75, "PDU: Data / Payload", "Application data stream, JSON, or protobuf", bg="#ffffff", stroke="#1971c2", text_color="#1971c2", font_size=11)
+    d.add_box(870, 185, 290, 75, "PDU: Data / Payload", "Application data stream, JSON, or protobuf", bg="#ffffff", stroke="#1971c2", text_color="#1971c2", font_size=11)
 
     # TCP/IP Layer 3: Transport
-    d.add_box(500, 309, 360, 46, "Transport Layer (TCP / UDP)", "End-to-end ports, flow & congestion control", bg="#ebfbee", stroke="#2b8a3e", text_color="#2b8a3e", font_size=12)
-    d.add_box(880, 309, 300, 46, "PDU: Segment (TCP) / Datagram", "TCP Header: Source/Dest Port, Seq/Ack, Flags", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e", font_size=11)
+    d.add_box(500, 309, 350, 46, "Transport Layer (TCP / UDP)", "End-to-end ports, flow & congestion control", bg="#ebfbee", stroke="#2b8a3e", text_color="#2b8a3e", font_size=12)
+    d.add_box(870, 309, 290, 46, "PDU: Segment (TCP) / Datagram", "TCP Header: Source/Dest Port, Seq/Ack, Flags", bg="#ffffff", stroke="#2b8a3e", text_color="#2b8a3e", font_size=11)
 
     # TCP/IP Layer 2: Internet
-    d.add_box(500, 365, 360, 46, "Internet Layer (IPv4 / IPv6)", "Logical host addressing, routing, TTL, ICMP", bg="#fff3bf", stroke="#f59f00", text_color="#d9480f", font_size=12)
-    d.add_box(880, 365, 300, 46, "PDU: IP Packet", "IP Header: Source/Dest IP, TTL, Protocol ID", bg="#ffffff", stroke="#f59f00", text_color="#d9480f", font_size=11)
+    d.add_box(500, 365, 350, 46, "Internet Layer (IPv4 / IPv6)", "Logical host addressing, routing, TTL, ICMP", bg="#fff3bf", stroke="#f59f00", text_color="#d9480f", font_size=12)
+    d.add_box(870, 365, 290, 46, "PDU: IP Packet", "IP Header: Source/Dest IP, TTL, Protocol ID", bg="#ffffff", stroke="#f59f00", text_color="#d9480f", font_size=11)
 
     # TCP/IP Layer 1: Network Access / Link
-    d.add_box(500, 421, 360, 85, "Network Access / Link Layer", [
+    d.add_box(500, 421, 350, 85, "Network Access / Link Layer", [
         "Ethernet 802.3, Wi-Fi 802.11, ARP",
         "MAC physical addressing & PHY bit signaling",
         "Consolidates OSI Layers 2 and 1"
     ], bg="#f3d9fa", stroke="#9c36b5", text_color="#9c36b5", font_size=12)
-    d.add_box(880, 428, 300, 70, "PDU: Frame & Raw Bits", "Ethernet Frame: MACs, VLAN, CRC FCS Checksum", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5", font_size=11)
+    d.add_box(870, 428, 290, 70, "PDU: Frame & Raw Bits", "Ethernet Frame: MACs, VLAN, CRC FCS Checksum", bg="#ffffff", stroke="#9c36b5", text_color="#9c36b5", font_size=11)
 
-    d.add_box(500, 520, 680, 90, "Practical Reality: The Internet Runs on TCP/IP", [
+    d.add_box(500, 520, 660, 90, "Practical Reality: The Internet Runs on TCP/IP", [
         "• While OSI is the canonical conceptual model, TCP/IP is the practical architecture of the Internet.",
         "• Senders encapsulate headers down the stack; receivers de-encapsulate headers up the stack."
     ], bg="#ffffff", stroke="#dee2e6", text_color="#495057", font_size=11)
 
     d.render("networks-osi-tcpip-model.png")
+
 
 def generate_tcp_lifecycle():
     d = DiagramBuilder()
@@ -94,8 +102,8 @@ def generate_tcp_lifecycle():
     d.add_lifeline(240, 165, 670, stroke="#868e96", stroke_width=2, stroke_style="dashed")
     d.add_lifeline(880, 165, 670, stroke="#868e96", stroke_width=2, stroke_style="dashed")
 
-    # 1. Handshake Container (y=180..390)
-    d.add_container(50, 180, 1020, 215, label="3-Way Handshake: Connection Establishment", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e")
+    # 1. Handshake Container (y=180..395, badge_align="center" sits safely between x=350 and 770)
+    d.add_container(50, 180, 1020, 215, label="3-Way Handshake: Connection Establishment", stroke="#2b8a3e", badge_bg="#ebfbee", badge_stroke="#2b8a3e", label_color="#2b8a3e", badge_align="center")
 
     # Step 1: Client -> Server
     d.add_sequence_message(240, 880, 255, "1. SYN (seq = X) [Client -> SYN_SENT]", stroke="#1971c2", font_size=12)
@@ -106,8 +114,8 @@ def generate_tcp_lifecycle():
     # Step 3: Client -> Server
     d.add_sequence_message(240, 880, 365, "3. ACK (ack = Y + 1) [Connection ESTABLISHED on both ends]", stroke="#1971c2", font_size=12)
 
-    # 2. Teardown Container (y=415..685)
-    d.add_container(50, 415, 1020, 270, label="4-Way Teardown: Graceful Connection Termination", stroke="#c92a2a", badge_bg="#ffe3e3", badge_stroke="#c92a2a", label_color="#c92a2a")
+    # 2. Teardown Container (y=415..685, badge_align="center" sits safely between x=350 and 770)
+    d.add_container(50, 415, 1020, 270, label="4-Way Teardown: Graceful Connection Termination", stroke="#c92a2a", badge_bg="#ffe3e3", badge_stroke="#c92a2a", label_color="#c92a2a", badge_align="center")
 
     # Step 1: Client -> Server
     d.add_sequence_message(240, 880, 490, "1. FIN (Client initiates close) [Client -> FIN_WAIT_1]", stroke="#e03131", font_size=12)

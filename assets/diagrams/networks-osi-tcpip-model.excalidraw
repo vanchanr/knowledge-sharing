@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "15f9aa1c",
+      "id": "e3d0d55e",
       "type": "rectangle",
       "x": 40,
       "y": 25,
@@ -23,17 +23,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372533,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372533,
       "link": null,
       "locked": false
     },
     {
-      "id": "4fc450c6",
+      "id": "7da746ce",
       "type": "text",
       "x": 50,
       "y": 35,
@@ -52,12 +52,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372533,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372533,
       "link": null,
       "locked": false,
       "text": "Computer Networks: OSI 7-Layer vs TCP/IP 4-Layer Architecture",
@@ -66,7 +66,7 @@
       "textAlign": "center"
     },
     {
-      "id": "5f609ffa",
+      "id": "403b9369",
       "type": "text",
       "x": 50,
       "y": 63,
@@ -85,12 +85,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372533,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372533,
       "link": null,
       "locked": false,
       "text": "Layer Mapping, Encapsulation Boundaries, and Protocol Data Units (PDUs)",
@@ -99,7 +99,7 @@
       "textAlign": "center"
     },
     {
-      "id": "f2e484b0",
+      "id": "e29298ed",
       "type": "rectangle",
       "x": 40,
       "y": 110,
@@ -118,17 +118,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 540476,
+      "seed": 372533,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372533,
       "link": null,
       "locked": false
     },
     {
-      "id": "abf758ef",
+      "id": "1dd78773",
       "type": "rectangle",
       "x": 52,
       "y": 120,
@@ -147,17 +147,17 @@
       "roundness": {
         "type": 2
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "1852cf89",
+      "id": "cd3a7b40",
       "type": "text",
       "x": 60,
       "y": 124,
@@ -176,12 +176,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "OSI 7-Layer Reference Model (ISO)",
@@ -190,7 +190,7 @@
       "textAlign": "center"
     },
     {
-      "id": "e8fe4dae",
+      "id": "8987f35e",
       "type": "rectangle",
       "x": 55,
       "y": 155,
@@ -209,17 +209,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "ab993f0f",
+      "id": "a397bee0",
       "type": "text",
       "x": 63,
       "y": 159,
@@ -238,12 +238,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "7. Application Layer",
@@ -252,7 +252,7 @@
       "textAlign": "center"
     },
     {
-      "id": "959e87d4",
+      "id": "73f3de7a",
       "type": "text",
       "x": 63,
       "y": 177,
@@ -271,12 +271,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "HTTP, DNS, SSH, SMTP",
@@ -285,7 +285,7 @@
       "textAlign": "center"
     },
     {
-      "id": "61a5cc38",
+      "id": "1f41353c",
       "type": "rectangle",
       "x": 55,
       "y": 205,
@@ -304,17 +304,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "677d3a57",
+      "id": "e1078a92",
       "type": "text",
       "x": 63,
       "y": 209,
@@ -333,12 +333,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "6. Presentation Layer",
@@ -347,7 +347,7 @@
       "textAlign": "center"
     },
     {
-      "id": "eafaffe6",
+      "id": "1a518dce",
       "type": "text",
       "x": 63,
       "y": 227,
@@ -366,12 +366,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540476,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540476,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "TLS/SSL, ASCII, JSON, MIME",
@@ -380,7 +380,7 @@
       "textAlign": "center"
     },
     {
-      "id": "55750fbb",
+      "id": "bf09edae",
       "type": "rectangle",
       "x": 55,
       "y": 255,
@@ -399,17 +399,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "4a2b81c1",
+      "id": "3c15f995",
       "type": "text",
       "x": 63,
       "y": 259,
@@ -428,12 +428,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "5. Session Layer",
@@ -442,7 +442,7 @@
       "textAlign": "center"
     },
     {
-      "id": "8b2a5ec9",
+      "id": "6409e368",
       "type": "text",
       "x": 63,
       "y": 277,
@@ -461,12 +461,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Sockets, Named Pipes, RPC",
@@ -475,7 +475,7 @@
       "textAlign": "center"
     },
     {
-      "id": "bf8e9d20",
+      "id": "b24c5d35",
       "type": "rectangle",
       "x": 55,
       "y": 305,
@@ -494,17 +494,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "45bc98a2",
+      "id": "d03c1f33",
       "type": "text",
       "x": 63,
       "y": 309,
@@ -523,12 +523,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "4. Transport Layer",
@@ -537,7 +537,7 @@
       "textAlign": "center"
     },
     {
-      "id": "06508418",
+      "id": "a547539a",
       "type": "text",
       "x": 63,
       "y": 327,
@@ -556,12 +556,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "TCP (Reliable) / UDP",
@@ -570,7 +570,7 @@
       "textAlign": "center"
     },
     {
-      "id": "d000cfe9",
+      "id": "0e3c76be",
       "type": "rectangle",
       "x": 55,
       "y": 355,
@@ -589,17 +589,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "af42fd32",
+      "id": "291712d9",
       "type": "text",
       "x": 63,
       "y": 359,
@@ -618,12 +618,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "3. Network Layer",
@@ -632,7 +632,7 @@
       "textAlign": "center"
     },
     {
-      "id": "d4344029",
+      "id": "45a4a8ae",
       "type": "text",
       "x": 63,
       "y": 377,
@@ -651,12 +651,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "IPv4, IPv6, ICMP, Routing",
@@ -665,7 +665,7 @@
       "textAlign": "center"
     },
     {
-      "id": "da7c1312",
+      "id": "b5e4f26f",
       "type": "rectangle",
       "x": 55,
       "y": 405,
@@ -684,17 +684,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "932711db",
+      "id": "f36d4570",
       "type": "text",
       "x": 63,
       "y": 409,
@@ -713,12 +713,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "2. Data Link Layer",
@@ -727,7 +727,7 @@
       "textAlign": "center"
     },
     {
-      "id": "b35cb34a",
+      "id": "61afd553",
       "type": "text",
       "x": 63,
       "y": 427,
@@ -746,12 +746,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Ethernet 802.3, Wi-Fi MAC",
@@ -760,7 +760,7 @@
       "textAlign": "center"
     },
     {
-      "id": "0ac513b0",
+      "id": "7273b09b",
       "type": "rectangle",
       "x": 55,
       "y": 455,
@@ -779,17 +779,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "db2b02fc",
+      "id": "512d849c",
       "type": "text",
       "x": 63,
       "y": 459,
@@ -808,12 +808,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "1. Physical Layer",
@@ -822,7 +822,7 @@
       "textAlign": "center"
     },
     {
-      "id": "c37b2cdf",
+      "id": "ee31ee67",
       "type": "text",
       "x": 63,
       "y": 477,
@@ -841,12 +841,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Cables, Fiber, RF Signals",
@@ -855,7 +855,7 @@
       "textAlign": "center"
     },
     {
-      "id": "5e15b820",
+      "id": "fcfd5f21",
       "type": "rectangle",
       "x": 55,
       "y": 520,
@@ -874,17 +874,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "89c6b541",
+      "id": "e1567079",
       "type": "text",
       "x": 63,
       "y": 539,
@@ -903,12 +903,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "OSI Reference Invariants",
@@ -917,7 +917,7 @@
       "textAlign": "center"
     },
     {
-      "id": "aeed82fe",
+      "id": "c2152cbc",
       "type": "text",
       "x": 79,
       "y": 556,
@@ -936,12 +936,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "\u2022 Standard 7-layer theoretical taxonomy.",
@@ -950,7 +950,7 @@
       "textAlign": "left"
     },
     {
-      "id": "7455406d",
+      "id": "56bfb328",
       "type": "text",
       "x": 79,
       "y": 571,
@@ -969,12 +969,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "\u2022 Each layer adds header encapsulation.",
@@ -983,7 +983,7 @@
       "textAlign": "left"
     },
     {
-      "id": "743e9d64",
+      "id": "b69cc6d6",
       "type": "arrow",
       "x": 360,
       "y": 230,
@@ -1000,12 +1000,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "points": [
@@ -1021,12 +1021,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "e526e14b",
+      "id": "2813365a",
       "type": "text",
-      "x": 367,
-      "y": 212,
-      "width": 106,
-      "height": 15,
+      "x": 375,
+      "y": 210,
+      "width": 95,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "transparent",
@@ -1040,21 +1040,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Consolidates",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "94eca1c4",
+      "id": "5028cf30",
       "type": "arrow",
       "x": 360,
       "y": 332,
@@ -1071,12 +1071,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "points": [
@@ -1092,12 +1092,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "bcd1389f",
+      "id": "c4891b69",
       "type": "text",
-      "x": 379,
-      "y": 314,
-      "width": 83,
-      "height": 15,
+      "x": 385,
+      "y": 312,
+      "width": 80,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#2b8a3e",
       "backgroundColor": "transparent",
@@ -1111,21 +1111,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "1 : 1 Map",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "4f92a4ca",
+      "id": "04c4a86c",
       "type": "arrow",
       "x": 360,
       "y": 382,
@@ -1142,12 +1142,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "points": [
@@ -1163,12 +1163,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "d356a5f8",
+      "id": "60159fda",
       "type": "text",
-      "x": 379,
-      "y": 364,
-      "width": 83,
-      "height": 15,
+      "x": 385,
+      "y": 362,
+      "width": 80,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#f59f00",
       "backgroundColor": "transparent",
@@ -1182,21 +1182,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "1 : 1 Map",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "56f0bf5c",
+      "id": "ebf5d28a",
       "type": "arrow",
       "x": 360,
       "y": 460,
@@ -1213,12 +1213,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "points": [
@@ -1234,12 +1234,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "7498ba0a",
+      "id": "4479c533",
       "type": "text",
-      "x": 367,
-      "y": 442,
-      "width": 106,
-      "height": 15,
+      "x": 375,
+      "y": 440,
+      "width": 95,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#9c36b5",
       "backgroundColor": "transparent",
@@ -1253,25 +1253,25 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Consolidates",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "91d3f02c",
+      "id": "70868a19",
       "type": "rectangle",
       "x": 480,
       "y": 110,
-      "width": 720,
+      "width": 700,
       "height": 520,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1286,21 +1286,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "23c9b2d0",
+      "id": "1e263b24",
       "type": "rectangle",
       "x": 492,
       "y": 120,
-      "width": 696,
+      "width": 552,
       "height": 28,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1315,21 +1315,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "455c61e0",
+      "id": "fa6853a0",
       "type": "text",
       "x": 500,
       "y": 124,
-      "width": 680,
+      "width": 536,
       "height": 20,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1344,12 +1344,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "TCP/IP 4-Layer Internet Model & Protocol Data Units (PDUs)",
@@ -1358,11 +1358,11 @@
       "textAlign": "center"
     },
     {
-      "id": "2a61a1d3",
+      "id": "5e7e7c17",
       "type": "rectangle",
       "x": 500,
       "y": 155,
-      "width": 360,
+      "width": 350,
       "height": 144,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1377,21 +1377,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "bcdff658",
+      "id": "addbe6b6",
       "type": "text",
       "x": 508,
       "y": 182,
-      "width": 344,
+      "width": 334,
       "height": 18,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1406,12 +1406,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Application Layer",
@@ -1420,11 +1420,11 @@
       "textAlign": "center"
     },
     {
-      "id": "901a5656",
+      "id": "d94eecde",
       "type": "text",
       "x": 508,
       "y": 200,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1439,12 +1439,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "HTTP/1.1, HTTP/2, HTTP/3 (QUIC)",
@@ -1453,11 +1453,11 @@
       "textAlign": "center"
     },
     {
-      "id": "2e3c5edb",
+      "id": "a692cb31",
       "type": "text",
       "x": 508,
       "y": 216,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1472,12 +1472,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "gRPC, DNS, SMTP, WebSockets",
@@ -1486,11 +1486,11 @@
       "textAlign": "center"
     },
     {
-      "id": "cb56bcfd",
+      "id": "ecb9f50b",
       "type": "text",
       "x": 508,
       "y": 241,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1505,12 +1505,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Consolidates OSI Layers 7, 6, and 5",
@@ -1519,11 +1519,11 @@
       "textAlign": "center"
     },
     {
-      "id": "6979f95a",
+      "id": "066765b0",
       "type": "rectangle",
-      "x": 880,
+      "x": 870,
       "y": 185,
-      "width": 300,
+      "width": 290,
       "height": 75,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1538,21 +1538,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "348a0623",
+      "id": "ef88e2d7",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 205,
-      "width": 284,
+      "width": 274,
       "height": 17,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1567,12 +1567,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "PDU: Data / Payload",
@@ -1581,11 +1581,11 @@
       "textAlign": "center"
     },
     {
-      "id": "6cde1cee",
+      "id": "1ecf728c",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 222,
-      "width": 284,
+      "width": 274,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1600,12 +1600,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Application data stream, JSON, or protobuf",
@@ -1614,11 +1614,11 @@
       "textAlign": "center"
     },
     {
-      "id": "011e7f8d",
+      "id": "e0263e83",
       "type": "rectangle",
       "x": 500,
       "y": 309,
-      "width": 360,
+      "width": 350,
       "height": 46,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1633,21 +1633,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "af8adc12",
+      "id": "4897cfcf",
       "type": "text",
       "x": 508,
       "y": 314,
-      "width": 344,
+      "width": 334,
       "height": 18,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1662,12 +1662,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Transport Layer (TCP / UDP)",
@@ -1676,11 +1676,11 @@
       "textAlign": "center"
     },
     {
-      "id": "1ef0640e",
+      "id": "63be42ba",
       "type": "text",
       "x": 508,
       "y": 332,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1695,12 +1695,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "End-to-end ports, flow & congestion control",
@@ -1709,11 +1709,11 @@
       "textAlign": "center"
     },
     {
-      "id": "184ba9ab",
+      "id": "ba11f1ed",
       "type": "rectangle",
-      "x": 880,
+      "x": 870,
       "y": 309,
-      "width": 300,
+      "width": 290,
       "height": 46,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1728,21 +1728,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "d4dfc682",
+      "id": "2e7bf8c3",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 315,
-      "width": 284,
+      "width": 274,
       "height": 17,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1757,12 +1757,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "PDU: Segment (TCP) / Datagram",
@@ -1771,11 +1771,11 @@
       "textAlign": "center"
     },
     {
-      "id": "353e3c20",
+      "id": "efe0cc13",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 332,
-      "width": 284,
+      "width": 274,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1790,12 +1790,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "TCP Header: Source/Dest Port, Seq/Ack, Flags",
@@ -1804,11 +1804,11 @@
       "textAlign": "center"
     },
     {
-      "id": "581708ee",
+      "id": "21ec4535",
       "type": "rectangle",
       "x": 500,
       "y": 365,
-      "width": 360,
+      "width": 350,
       "height": 46,
       "angle": 0,
       "strokeColor": "#f59f00",
@@ -1823,21 +1823,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "f968b59d",
+      "id": "3dd61bd6",
       "type": "text",
       "x": 508,
       "y": 370,
-      "width": 344,
+      "width": 334,
       "height": 18,
       "angle": 0,
       "strokeColor": "#d9480f",
@@ -1852,12 +1852,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Internet Layer (IPv4 / IPv6)",
@@ -1866,11 +1866,11 @@
       "textAlign": "center"
     },
     {
-      "id": "5c4ba710",
+      "id": "6b1b374f",
       "type": "text",
       "x": 508,
       "y": 388,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1885,12 +1885,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Logical host addressing, routing, TTL, ICMP",
@@ -1899,11 +1899,11 @@
       "textAlign": "center"
     },
     {
-      "id": "67fb3966",
+      "id": "487ad297",
       "type": "rectangle",
-      "x": 880,
+      "x": 870,
       "y": 365,
-      "width": 300,
+      "width": 290,
       "height": 46,
       "angle": 0,
       "strokeColor": "#f59f00",
@@ -1918,21 +1918,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "409776b1",
+      "id": "789276e9",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 371,
-      "width": 284,
+      "width": 274,
       "height": 17,
       "angle": 0,
       "strokeColor": "#d9480f",
@@ -1947,12 +1947,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "PDU: IP Packet",
@@ -1961,11 +1961,11 @@
       "textAlign": "center"
     },
     {
-      "id": "1e73c596",
+      "id": "0eb3a9fa",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 388,
-      "width": 284,
+      "width": 274,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1980,12 +1980,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "IP Header: Source/Dest IP, TTL, Protocol ID",
@@ -1994,11 +1994,11 @@
       "textAlign": "center"
     },
     {
-      "id": "28474b0b",
+      "id": "bb03d6d5",
       "type": "rectangle",
       "x": 500,
       "y": 421,
-      "width": 360,
+      "width": 350,
       "height": 85,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -2013,21 +2013,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false
     },
     {
-      "id": "89b98590",
+      "id": "370b9d34",
       "type": "text",
       "x": 508,
       "y": 427,
-      "width": 344,
+      "width": 334,
       "height": 18,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -2042,12 +2042,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Network Access / Link Layer",
@@ -2056,11 +2056,11 @@
       "textAlign": "center"
     },
     {
-      "id": "b1d9f18b",
+      "id": "fa082875",
       "type": "text",
       "x": 508,
       "y": 445,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2075,12 +2075,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372534,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372534,
       "link": null,
       "locked": false,
       "text": "Ethernet 802.3, Wi-Fi 802.11, ARP",
@@ -2089,11 +2089,11 @@
       "textAlign": "center"
     },
     {
-      "id": "6c602760",
+      "id": "8a0f8535",
       "type": "text",
       "x": 508,
       "y": 461,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2108,12 +2108,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "MAC physical addressing & PHY bit signaling",
@@ -2122,11 +2122,11 @@
       "textAlign": "center"
     },
     {
-      "id": "eb1e7119",
+      "id": "6d0fd532",
       "type": "text",
       "x": 508,
       "y": 477,
-      "width": 344,
+      "width": 334,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2141,12 +2141,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "Consolidates OSI Layers 2 and 1",
@@ -2155,11 +2155,11 @@
       "textAlign": "center"
     },
     {
-      "id": "0bbcf431",
+      "id": "5fd32b2d",
       "type": "rectangle",
-      "x": 880,
+      "x": 870,
       "y": 428,
-      "width": 300,
+      "width": 290,
       "height": 70,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -2174,21 +2174,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false
     },
     {
-      "id": "1398ab44",
+      "id": "ddfa973e",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 446,
-      "width": 284,
+      "width": 274,
       "height": 17,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -2203,12 +2203,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "PDU: Frame & Raw Bits",
@@ -2217,11 +2217,11 @@
       "textAlign": "center"
     },
     {
-      "id": "daaf0217",
+      "id": "617d878d",
       "type": "text",
-      "x": 888,
+      "x": 878,
       "y": 463,
-      "width": 284,
+      "width": 274,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2236,12 +2236,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "Ethernet Frame: MACs, VLAN, CRC FCS Checksum",
@@ -2250,11 +2250,11 @@
       "textAlign": "center"
     },
     {
-      "id": "2bcc19b7",
+      "id": "278c3b8f",
       "type": "rectangle",
       "x": 500,
       "y": 520,
-      "width": 680,
+      "width": 660,
       "height": 90,
       "angle": 0,
       "strokeColor": "#dee2e6",
@@ -2269,21 +2269,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false
     },
     {
-      "id": "a86cce1d",
+      "id": "172767d6",
       "type": "text",
       "x": 508,
       "y": 539,
-      "width": 664,
+      "width": 644,
       "height": 17,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2298,12 +2298,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "Practical Reality: The Internet Runs on TCP/IP",
@@ -2312,11 +2312,11 @@
       "textAlign": "center"
     },
     {
-      "id": "729e03a3",
+      "id": "9300c212",
       "type": "text",
       "x": 524,
       "y": 556,
-      "width": 640,
+      "width": 620,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2331,12 +2331,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540477,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540477,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "\u2022 While OSI is the canonical conceptual model, TCP/IP is the practical architecture of the Internet.",
@@ -2345,11 +2345,11 @@
       "textAlign": "left"
     },
     {
-      "id": "3767a16a",
+      "id": "80c32dc8",
       "type": "text",
       "x": 524,
       "y": 571,
-      "width": 640,
+      "width": 620,
       "height": 13,
       "angle": 0,
       "strokeColor": "#495057",
@@ -2364,12 +2364,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 540478,
+      "seed": 372535,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375540478,
+      "updated": 1795382372535,
       "link": null,
       "locked": false,
       "text": "\u2022 Senders encapsulate headers down the stack; receivers de-encapsulate headers up the stack.",
