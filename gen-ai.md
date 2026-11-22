@@ -16,6 +16,9 @@
 ---
 
 ## Transformer Architecture Internals
+
+![Transformer Decoder Architecture](assets/diagrams/genai-transformer-architecture.png)
+
 - Introduced in *"Attention Is All You Need"* (Vaswani et al., 2017). Replaced recurrent networks (RNNs/LSTMs) by enabling massive parallel processing across sequence tokens.
 - **Self-Attention Mechanism**:
   - Computes contextual relationships between all token pairs in a sequence regardless of distance.
@@ -64,6 +67,9 @@
 ---
 
 ## Retrieval-Augmented Generation (RAG)
+
+![Advanced RAG Architecture Pipeline](assets/diagrams/genai-rag-pipeline-architecture.png)
+
 - Overcomes LLM limitations: hallucinations, lack of private domain data, and knowledge cutoff dates.
 - **Standard RAG Pipeline**:
   1. **Ingestion & Chunking**: Documents parsed and split into semantic chunks (e.g., 512 tokens with 50-token overlap).
