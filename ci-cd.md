@@ -11,6 +11,9 @@
   - Fully automated from commit to production. Every passing change in the pipeline is deployed directly to end users without manual gatekeeping.
 
 ## Anatomy of a Production CI/CD Pipeline
+
+![CI/CD and GitOps Pipeline Flow](assets/diagrams/cicd-pipeline-gitops-flow.png)
+
 ```
 [ Commit ] ➔ [ Lint & Format ] ➔ [ Compile & Build ] ➔ [ Unit Tests ]
      ➔ [ SAST & Security Scan ] ➔ [ Containerize & Sign ] ➔ [ Push Registry ]

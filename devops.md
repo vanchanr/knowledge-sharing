@@ -31,6 +31,8 @@
 
 ## Observability: The Three Pillars
 
+![The Three Pillars of Observability](assets/diagrams/devops-observability-pillars.png)
+
 ### 1. Metrics (Aggregations over Time)
 - Low cost, real-time alert generation, numeric telemetry.
 - **The Four Golden Signals (Google SRE)**:
