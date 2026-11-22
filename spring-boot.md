@@ -48,6 +48,9 @@
 ---
 
 ## Web Layer (Spring MVC & REST)
+
+![Spring MVC Request Lifecycle](assets/diagrams/spring-boot-mvc-lifecycle.png)
+
 - **DispatcherServlet**: The Front Controller pattern implementation orchestrating incoming HTTP requests:
   `Request` $\to$ `DispatcherServlet` $\to$ `HandlerMapping` $\to$ `HandlerAdapter` $\to$ `@RestController` $\to$ `HttpMessageConverter` (Jackson JSON serialization) $\to$ `Response`.
 - **Exception Handling**:
@@ -78,6 +81,9 @@
 ---
 
 ## Security: Spring Security
+
+![Spring Security Filter Chain](assets/diagrams/spring-boot-security-filterchain.png)
+
 - **Filter Chain Architecture**:
   - Requests pass through `SecurityFilterChain` comprised of specialized filters (`SecurityContextPersistenceFilter`, `UsernamePasswordAuthenticationFilter`, `BearerTokenAuthenticationFilter`, `FilterSecurityInterceptor`).
 - **Modern Security Configuration**:
