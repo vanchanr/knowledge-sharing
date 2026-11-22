@@ -4,7 +4,7 @@
   "source": "https://excalidraw.com",
   "elements": [
     {
-      "id": "87d0c88e",
+      "id": "fe758bc6",
       "type": "rectangle",
       "x": 40,
       "y": 25,
@@ -23,17 +23,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "6a628755",
+      "id": "7566f0af",
       "type": "text",
       "x": 50,
       "y": 35,
@@ -52,12 +52,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "Redis High Availability: Persistence & Sharded Cluster",
@@ -66,7 +66,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7b8119e5",
+      "id": "7a2c60fb",
       "type": "text",
       "x": 50,
       "y": 63,
@@ -85,12 +85,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "RDB & AOF Durability, Sentinel Failover Quorum, and 16,384 Hash Slot Topology",
@@ -99,7 +99,7 @@
       "textAlign": "center"
     },
     {
-      "id": "a4fb4458",
+      "id": "6749e9ee",
       "type": "rectangle",
       "x": 40,
       "y": 110,
@@ -118,21 +118,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "052949c4",
+      "id": "aa9029a9",
       "type": "rectangle",
       "x": 52,
       "y": 120,
-      "width": 466,
+      "width": 318,
       "height": 28,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -147,21 +147,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "b33e4872",
+      "id": "8b103e7b",
       "type": "text",
       "x": 60,
       "y": 124,
-      "width": 450,
+      "width": 302,
       "height": 20,
       "angle": 0,
       "strokeColor": "#9c36b5",
@@ -176,12 +176,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "Persistence & Durability Engines",
@@ -190,7 +190,7 @@
       "textAlign": "center"
     },
     {
-      "id": "35379155",
+      "id": "43a077a9",
       "type": "rectangle",
       "x": 60,
       "y": 155,
@@ -209,17 +209,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "c260a647",
+      "id": "e2e7beaf",
       "type": "text",
       "x": 68,
       "y": 170,
@@ -238,12 +238,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "RDB (Redis Database Snapshots)",
@@ -252,7 +252,7 @@
       "textAlign": "center"
     },
     {
-      "id": "6ab2f2c6",
+      "id": "6fb1e6a6",
       "type": "text",
       "x": 84,
       "y": 188,
@@ -271,12 +271,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "\u2022 Point-in-time binary dump generated via background fork()",
@@ -285,7 +285,7 @@
       "textAlign": "left"
     },
     {
-      "id": "b7c05ef3",
+      "id": "49d7cc4c",
       "type": "text",
       "x": 84,
       "y": 204,
@@ -304,12 +304,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "\u2022 Ultra-fast recovery during server restarts, highly compact",
@@ -318,7 +318,7 @@
       "textAlign": "left"
     },
     {
-      "id": "c80ee672",
+      "id": "2772faee",
       "type": "rectangle",
       "x": 60,
       "y": 255,
@@ -337,17 +337,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "ad729c27",
+      "id": "be374e72",
       "type": "text",
       "x": 68,
       "y": 270,
@@ -366,12 +366,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "AOF (Append-Only File Log)",
@@ -380,7 +380,7 @@
       "textAlign": "center"
     },
     {
-      "id": "81eb2717",
+      "id": "813cbc88",
       "type": "text",
       "x": 84,
       "y": 288,
@@ -399,12 +399,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "\u2022 Transaction log of all write commands (fsync: everysec)",
@@ -413,7 +413,7 @@
       "textAlign": "left"
     },
     {
-      "id": "c8ea5f66",
+      "id": "7f78a61c",
       "type": "text",
       "x": 84,
       "y": 304,
@@ -432,12 +432,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "\u2022 Auto-compacted via BGREWRITEAOF, guarantees minimal data loss",
@@ -446,7 +446,7 @@
       "textAlign": "left"
     },
     {
-      "id": "f3369f9b",
+      "id": "11aeac65",
       "type": "rectangle",
       "x": 560,
       "y": 110,
@@ -465,21 +465,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "58640bfb",
+      "id": "2f236bce",
       "type": "rectangle",
       "x": 572,
       "y": 120,
-      "width": 546,
+      "width": 426,
       "height": 28,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -494,21 +494,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "ab678f22",
+      "id": "ecf2fa93",
       "type": "text",
       "x": 580,
       "y": 124,
-      "width": 530,
+      "width": 410,
       "height": 20,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -523,12 +523,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "High Availability: Master-Replica + Sentinel",
@@ -537,7 +537,7 @@
       "textAlign": "center"
     },
     {
-      "id": "dc54beab",
+      "id": "038ac807",
       "type": "rectangle",
       "x": 580,
       "y": 155,
@@ -556,17 +556,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "08565c4a",
+      "id": "bc4e7c0e",
       "type": "text",
       "x": 588,
       "y": 167,
@@ -585,12 +585,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "Master Node",
@@ -599,7 +599,7 @@
       "textAlign": "center"
     },
     {
-      "id": "2abaa6eb",
+      "id": "ca572071",
       "type": "text",
       "x": 588,
       "y": 185,
@@ -618,12 +618,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false,
       "text": "Primary (Writes & Reads)",
@@ -632,7 +632,7 @@
       "textAlign": "center"
     },
     {
-      "id": "7fdc6083",
+      "id": "6a2c406f",
       "type": "rectangle",
       "x": 910,
       "y": 155,
@@ -651,17 +651,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153172,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153172,
       "link": null,
       "locked": false
     },
     {
-      "id": "247525a1",
+      "id": "2b009dac",
       "type": "text",
       "x": 918,
       "y": 167,
@@ -680,12 +680,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Replica Node",
@@ -694,7 +694,7 @@
       "textAlign": "center"
     },
     {
-      "id": "c7260da7",
+      "id": "c442d1a8",
       "type": "text",
       "x": 918,
       "y": 185,
@@ -713,12 +713,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165989,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165989,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Read Scale-out (Async)",
@@ -727,7 +727,7 @@
       "textAlign": "center"
     },
     {
-      "id": "702b0c33",
+      "id": "a18ce618",
       "type": "arrow",
       "x": 780,
       "y": 185,
@@ -744,12 +744,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "points": [
@@ -765,12 +765,12 @@
       "endArrowhead": "arrow"
     },
     {
-      "id": "4fd99e2d",
+      "id": "a49f46f7",
       "type": "text",
-      "x": 796,
-      "y": 167,
-      "width": 98,
-      "height": 15,
+      "x": 800,
+      "y": 165,
+      "width": 90,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#2b8a3e",
       "backgroundColor": "transparent",
@@ -784,21 +784,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Async PSYNC",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "ca7716af",
+      "id": "81e6cee1",
       "type": "rectangle",
       "x": 580,
       "y": 245,
@@ -817,17 +817,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "515a8dc9",
+      "id": "f7d4b68e",
       "type": "text",
       "x": 588,
       "y": 265,
@@ -846,12 +846,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Redis Sentinel Quorum (3+ Monitor Nodes)",
@@ -860,7 +860,7 @@
       "textAlign": "center"
     },
     {
-      "id": "612e1794",
+      "id": "da1acdff",
       "type": "text",
       "x": 604,
       "y": 283,
@@ -879,12 +879,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Continuous heartbeat monitoring (PING / PONG) detects node crash",
@@ -893,7 +893,7 @@
       "textAlign": "left"
     },
     {
-      "id": "1680e232",
+      "id": "913f412c",
       "type": "text",
       "x": 604,
       "y": 299,
@@ -912,12 +912,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Quorum agreement triggers auto-failover, promoting replica to master",
@@ -926,7 +926,7 @@
       "textAlign": "left"
     },
     {
-      "id": "2f1d5bf2",
+      "id": "a7eddc1e",
       "type": "rectangle",
       "x": 40,
       "y": 385,
@@ -945,21 +945,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "27e0a150",
+      "id": "d14dfcdb",
       "type": "rectangle",
       "x": 52,
       "y": 395,
-      "width": 1066,
+      "width": 579,
       "height": 28,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -974,21 +974,21 @@
       "roundness": {
         "type": 2
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "6644a606",
+      "id": "375cb489",
       "type": "text",
       "x": 60,
       "y": 399,
-      "width": 1050,
+      "width": 563,
       "height": 20,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1003,12 +1003,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Redis Sharded Cluster: 16,384 Hash Slots & Decentralized Mesh",
@@ -1017,11 +1017,11 @@
       "textAlign": "center"
     },
     {
-      "id": "f5b3c1d2",
+      "id": "f3920003",
       "type": "rectangle",
       "x": 65,
       "y": 435,
-      "width": 280,
+      "width": 270,
       "height": 95,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1036,21 +1036,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "d8c664fa",
+      "id": "6093f80a",
       "type": "text",
       "x": 73,
       "y": 446,
-      "width": 264,
+      "width": 254,
       "height": 18,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -1065,12 +1065,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Master Node 1",
@@ -1079,11 +1079,11 @@
       "textAlign": "center"
     },
     {
-      "id": "97efd834",
+      "id": "62ef8427",
       "type": "text",
       "x": 73,
       "y": 464,
-      "width": 264,
+      "width": 254,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1098,12 +1098,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Hash Slots: [0 - 5,460]",
@@ -1112,11 +1112,11 @@
       "textAlign": "center"
     },
     {
-      "id": "a9c47049",
+      "id": "b2955058",
       "type": "text",
       "x": 89,
       "y": 480,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1131,12 +1131,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Stores CRC16(key) % 16384",
@@ -1145,11 +1145,11 @@
       "textAlign": "left"
     },
     {
-      "id": "ef57248c",
+      "id": "06a30942",
       "type": "text",
       "x": 89,
       "y": 496,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1164,12 +1164,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Replicated by Slave 1",
@@ -1178,11 +1178,11 @@
       "textAlign": "left"
     },
     {
-      "id": "a4876ca4",
+      "id": "b2fcf173",
       "type": "rectangle",
-      "x": 445,
+      "x": 450,
       "y": 435,
-      "width": 280,
+      "width": 270,
       "height": 95,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1197,21 +1197,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "3677c4fa",
+      "id": "6e6184b7",
       "type": "text",
-      "x": 453,
+      "x": 458,
       "y": 446,
-      "width": 264,
+      "width": 254,
       "height": 18,
       "angle": 0,
       "strokeColor": "#2b8a3e",
@@ -1226,12 +1226,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Master Node 2",
@@ -1240,11 +1240,11 @@
       "textAlign": "center"
     },
     {
-      "id": "0f73d4a3",
+      "id": "4ee372e2",
       "type": "text",
-      "x": 453,
+      "x": 458,
       "y": 464,
-      "width": 264,
+      "width": 254,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1259,12 +1259,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Hash Slots: [5,461 - 10,922]",
@@ -1273,11 +1273,11 @@
       "textAlign": "center"
     },
     {
-      "id": "f093aa4d",
+      "id": "ef408ca6",
       "type": "text",
-      "x": 469,
+      "x": 474,
       "y": 480,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1292,12 +1292,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Smart client slot cache",
@@ -1306,11 +1306,11 @@
       "textAlign": "left"
     },
     {
-      "id": "4aa812e4",
+      "id": "11d03fd1",
       "type": "text",
-      "x": 469,
+      "x": 474,
       "y": 496,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1325,12 +1325,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Replicated by Slave 2",
@@ -1339,11 +1339,11 @@
       "textAlign": "left"
     },
     {
-      "id": "0860f871",
+      "id": "93ba8829",
       "type": "rectangle",
-      "x": 825,
+      "x": 835,
       "y": 435,
-      "width": 280,
+      "width": 270,
       "height": 95,
       "angle": 0,
       "strokeColor": "#f59f00",
@@ -1358,21 +1358,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "844493dd",
+      "id": "13c64ad0",
       "type": "text",
-      "x": 833,
+      "x": 843,
       "y": 446,
-      "width": 264,
+      "width": 254,
       "height": 18,
       "angle": 0,
       "strokeColor": "#d9480f",
@@ -1387,12 +1387,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Master Node 3",
@@ -1401,11 +1401,11 @@
       "textAlign": "center"
     },
     {
-      "id": "d5b22b0e",
+      "id": "2711da89",
       "type": "text",
-      "x": 833,
+      "x": 843,
       "y": 464,
-      "width": 264,
+      "width": 254,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1420,12 +1420,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Hash Slots: [10,923 - 16,383]",
@@ -1434,11 +1434,11 @@
       "textAlign": "center"
     },
     {
-      "id": "1a721b9a",
+      "id": "61d3117f",
       "type": "text",
-      "x": 849,
+      "x": 859,
       "y": 480,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1453,12 +1453,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Seamless online resharding",
@@ -1467,11 +1467,11 @@
       "textAlign": "left"
     },
     {
-      "id": "d238605e",
+      "id": "371ec195",
       "type": "text",
-      "x": 849,
+      "x": 859,
       "y": 496,
-      "width": 240,
+      "width": 230,
       "height": 14,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1486,12 +1486,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "\u2022 Replicated by Slave 3",
@@ -1500,11 +1500,11 @@
       "textAlign": "left"
     },
     {
-      "id": "01e5431a",
+      "id": "7aacf653",
       "type": "arrow",
-      "x": 345,
+      "x": 335,
       "y": 482,
-      "width": 100,
+      "width": 115,
       "height": 1,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1517,12 +1517,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "points": [
@@ -1531,19 +1531,19 @@
           0
         ],
         [
-          100,
+          115,
           0
         ]
       ],
       "endArrowhead": "arrow"
     },
     {
-      "id": "2a434f83",
+      "id": "ca957987",
       "type": "text",
-      "x": 350,
-      "y": 464,
-      "width": 91,
-      "height": 15,
+      "x": 355,
+      "y": 462,
+      "width": 80,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
@@ -1557,25 +1557,25 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Gossip Bus",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "415098c8",
+      "id": "6381ab36",
       "type": "arrow",
-      "x": 725,
+      "x": 720,
       "y": 482,
-      "width": 100,
+      "width": 115,
       "height": 1,
       "angle": 0,
       "strokeColor": "#495057",
@@ -1588,12 +1588,12 @@
       "groupIds": [],
       "frameId": null,
       "roundness": null,
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "points": [
@@ -1602,19 +1602,19 @@
           0
         ],
         [
-          100,
+          115,
           0
         ]
       ],
       "endArrowhead": "arrow"
     },
     {
-      "id": "21d451ca",
+      "id": "f6a4f70a",
       "type": "text",
-      "x": 730,
-      "y": 464,
-      "width": 91,
-      "height": 15,
+      "x": 740,
+      "y": 462,
+      "width": 80,
+      "height": 19,
       "angle": 0,
       "strokeColor": "#495057",
       "backgroundColor": "transparent",
@@ -1628,21 +1628,21 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Gossip Bus",
       "fontSize": 11,
       "fontFamily": 1,
-      "textAlign": "center"
+      "textAlign": "left"
     },
     {
-      "id": "b0aa9e2c",
+      "id": "a28a154d",
       "type": "rectangle",
       "x": 65,
       "y": 550,
@@ -1661,17 +1661,17 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false
     },
     {
-      "id": "97120162",
+      "id": "244c1d53",
       "type": "text",
       "x": 73,
       "y": 567,
@@ -1690,12 +1690,12 @@
       "roundness": {
         "type": 3
       },
-      "seed": 165990,
+      "seed": 153173,
       "version": 1,
       "versionNonce": 1,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1795375165990,
+      "updated": 1795382153173,
       "link": null,
       "locked": false,
       "text": "Decentralized Routing: Smart clients query any node directly and follow -MOVED redirects without any proxy overhead.",
