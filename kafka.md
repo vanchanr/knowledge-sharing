@@ -24,6 +24,9 @@
 
 ---
 - **Consumer Groups**
+
+![Kafka Topic Partitions & Consumer Groups](assets/diagrams/kafka-topic-partition-architecture.png)
+
   - A partition can be processed by atmost 1 consumer node, while a single consumer within a cosumer group can process multiple partions of a topic
   - this is to maintain ordering within events of a single partition \
 ![image](https://github.com/vanchanr/knowledge-sharing/assets/43525805/143092ab-46a1-4306-9827-c6f386e2d20f)

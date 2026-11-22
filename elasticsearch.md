@@ -14,6 +14,9 @@
 - **Inverted index**: The core data structure; maps every term to the documents containing it, enabling fast full-text search.
 
 ## Cluster Architecture
+
+![Elasticsearch Cluster Architecture & Inverted Index](assets/diagrams/elasticsearch-cluster-inverted-index.png)
+
 - **Node roles**: master-eligible (voting), data, ingest, machine learning, and coordinating-only nodes.
 - **Master-eligible node**: Handles cluster-wide operations (index creation, shard allocation, node membership).
 - **Data node**: Stores data and executes data-related queries (search, aggregations, indexing).
