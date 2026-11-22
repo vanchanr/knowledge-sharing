@@ -1,6 +1,9 @@
 # Software Design & Architecture — From Basics to Expert
 
 ## Architecture Fundamentals
+
+![Monolith vs Modular Monolith vs Microservices](assets/diagrams/architecture-monolith-vs-microservices.png)
+
 - **Software architecture**: The high-level structure of a system — the significant design decisions, components, their relationships, and the principles guiding evolution.
 - **Architecture vs Design**: Architecture is the macro (system structure, components, tech choices, non-functional requirements); design is the micro (class-level, algorithm, pattern detail within components).
 - **Non-functional requirements (NFRs)**: Scalability, availability, reliability, maintainability, performance, security, cost — often matter more than features for architecture success.

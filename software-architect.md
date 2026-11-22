@@ -47,6 +47,9 @@ We will introduce Apache Kafka as our primary event streaming backbone. Order se
 ## Architectural Modeling & Frameworks
 
 ### The C4 Model for Visualizing Architecture
+
+![C4 Architecture Visualization Model](assets/diagrams/architecture-c4-model-overview.png)
+
 1. **Context (Level 1)**: The 10,000-foot view. Shows your software system in relation to users and external software systems.
 2. **Container (Level 2)**: Zooms into the system boundary. Shows high-level technical shapes: Web Applications, Mobile Apps, Microservices, Databases, Message Queues.
 3. **Component (Level 3)**: Zooms into a single container. Shows internal modules, controllers, repositories, and service interfaces.
