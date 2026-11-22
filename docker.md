@@ -1,6 +1,9 @@
 # Docker — From Basics to Expert
 
 ## Core Concepts
+
+![Docker Containers vs Virtual Machines](assets/diagrams/docker-container-architecture.png)
+
 - **Container**: A lightweight, standalone, executable package that includes everything needed to run software (code, runtime, system tools, libraries, settings).
 - **Image**: A read-only template with instructions for creating a container. Built in layers; each instruction in a Dockerfile creates a layer.
 - **Dockerfile**: A text file with instructions (FROM, RUN, COPY, CMD, ENTRYPOINT, EXPOSE) to build an image.

@@ -2,6 +2,8 @@
 
 ## Kubernetes Architecture
 
+![Kubernetes Architecture Overview](assets/diagrams/kubernetes-architecture-overview.png)
+
 ### Control Plane Components (Master Node)
 - **`kube-apiserver`**: The front end of the control plane; exposes the Kubernetes API (`kubectl` and all components communicate exclusively through it). Stateless, horizontally scalable.
 - **`etcd`**: Consistent, highly-available distributed key-value store (using Raft consensus) holding the entire cluster state and configuration. Never write to it directly.
