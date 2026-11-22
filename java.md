@@ -13,6 +13,9 @@
   - Follows the **Delegation Hierarchy Principle** (parent-first delegation prevents duplicate or malicious overrides).
 
 ## JVM Memory Model (JMM) & Garbage Collection
+
+![JVM Memory Model](assets/diagrams/java-jvm-memory-model.png)
+
 - **Memory Areas**:
   - **Heap**: Shared runtime data area where all object instances and arrays are allocated. Managed by Garbage Collection.
   - **Method Area / Metaspace**: Stores class metadata, runtime constant pool, static variables, and method bytecode. Resides in native memory (since Java 8 replaced PermGen).
@@ -29,6 +32,9 @@
   - **ZGC** (`-XX:+UseZGC`) & **Shenandoah**: Ultra-low latency concurrent garbage collectors with pause times under 1 millisecond regardless of heap size (gigabytes to terabytes).
 
 ## Java Collections Framework
+
+![Java Collections Framework Hierarchy](assets/diagrams/java-collections-hierarchy.png)
+
 - **Hierarchy Overview**:
   - `Collection` interface roots `List`, `Set`, and `Queue`.
   - `Map` is a standalone interface for key-value mappings.
