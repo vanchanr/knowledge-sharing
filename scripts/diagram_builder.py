@@ -103,15 +103,19 @@ class DiagramBuilder:
 
         return box["id"]
 
-    def add_container(self, x, y, w, h, label=None, stroke="#adb5bd", stroke_style="dashed", bg="transparent", badge_bg="#f1f3f5", badge_stroke=None, label_color="#343a40"):
+    def add_container(self, x, y, w, h, label=None, stroke="#adb5bd", stroke_style="dashed", bg="transparent", badge_bg="#f1f3f5", badge_stroke=None, label_color="#343a40", badge_w=None, badge_align="left"):
         """Draws a group container boundary with an interior header badge to completely eliminate border clipping."""
         c = self._base_element("rectangle", x, y, w, h, stroke=stroke, bg=bg, stroke_width=2, stroke_style=stroke_style, roughness=0, roundness=2)
         self.elements.append(c)
 
         if label:
-            badge_w = w - 24
+            if badge_w is None:
+                badge_w = min(w - 24, max(140, len(label) * 9 + 30))
             badge_h = 28
-            badge_x = x + 12
+            if badge_align == "right":
+                badge_x = x + w - badge_w - 12
+            else:
+                badge_x = x + 12
             badge_y = y + 10
 
             b_stroke = badge_stroke if badge_stroke else stroke
